@@ -1,24 +1,75 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
+import java.io.*;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 
-public class JSONtoCSV {
 
+public class JSONtoCSV extends JFrame {
+    private static final long serialVersionUID = 1L;
+    private static File JSONFile;
+    private static BufferedReader inputFile;
+    private static BufferedWriter outputFile;
+    public JSONtoCSV() {
+        FileNameExtensionFilter filter = new FileNameExtensionFilter("javascript object notation", "json");
+        JFileChooser choice = new JFileChooser();
+        choice.setFileFilter(filter);
+
+        String[] options = {"Local file", "URL"};
+        int urlOption = JOptionPane.showOptionDialog(this,
+                "Do you want to open a local file or provide a URL?",
+                "Open file", JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE,
+                null, options, options[0]);
+        if (urlOption == 1) { // URL option
+            String urlStr = JOptionPane.showInputDialog(this,
+                    "Enter the URL of the JSON file:");
+            try {
+                URL url = new URL(urlStr);
+                jsonToCsv(url.openStream());
+            } catch (MalformedURLException e) {
+                JOptionPane.showMessageDialog(this, "Invalid URL. Program will exit.",
+                        "System Dialog", JOptionPane.PLAIN_MESSAGE);
+                System.exit(1);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } else { // local file option
+            int option = choice.showOpenDialog(this);
+            if (option == JFileChooser.APPROVE_OPTION) {
+                JSONFile = choice.getSelectedFile();
+                try {
+                    jsonToCsv(new FileInputStream(JSONFile));
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+            } else {
+                JOptionPane.showMessageDialog(this, "Did not select file. Program will exit.",
+                        "System Dialog", JOptionPane.PLAIN_MESSAGE);
+                System.exit(1);
+            }
+        }
+    }
     public static void main(String[] args) {
+        JSONtoCSV convert = new JSONtoCSV();
+        System.exit(0);
+    }
 
-        String jsonFilePath = "C:\\Users\\Lenovo\\Documents\\Assuntos Universitários\\3ºAno\\2º Semestre\\ES\\megamaven\\src\\main\\java\\horario-exemplo-1.json";
+    private static void jsonToCsv(InputStream input) {
         String csvFilePath = "horario-final.csv";
 
-        try (BufferedReader br = new BufferedReader(new FileReader(jsonFilePath))) {
+        try {
+
+            inputFile = new BufferedReader(new InputStreamReader(input));
+            String outputName = JSONFile.toString().substring(0,
+                    JSONFile.toString().lastIndexOf(".")) + ".csv";
 
             String line;
             ArrayList<String> headers = new ArrayList<>();
             boolean isFirstLine = true;
             ArrayList<String> csvLines = new ArrayList<>();
 
-            while ((line = br.readLine()) != null) {
+            while ((line = inputFile.readLine()) != null) {
                 line = line.trim();
 
                 // skip empty lines and closing brackets
@@ -73,12 +124,12 @@ public class JSONtoCSV {
             csvLines.add(0, String.join(",", headers));
 
             // write CSV lines to file
-            FileWriter writer = new FileWriter(csvFilePath);
+            outputFile = new BufferedWriter(new FileWriter(new File(outputName)));
             for (String csvLine : csvLines) {
-                writer.append(csvLine);
-                writer.append(System.lineSeparator());
+                outputFile.append(csvLine);
+                outputFile.append(System.lineSeparator());
             }
-            writer.close();
+            outputFile.close();
 
         } catch (IOException e) {
             e.printStackTrace();
