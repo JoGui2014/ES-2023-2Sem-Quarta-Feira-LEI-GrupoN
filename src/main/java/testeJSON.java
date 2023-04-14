@@ -40,7 +40,7 @@ public class testeJSON extends JFrame{
         } else { // local file option
             int option = choice.showOpenDialog(this);
             if (option == JFileChooser.APPROVE_OPTION) {
-                File CSVFile = choice.getSelectedFile();
+                CSVFile = choice.getSelectedFile();
                 try {
                     convert(new FileInputStream(CSVFile));
                 } catch (FileNotFoundException e) {
