@@ -5,6 +5,8 @@ import java.net.URLConnection;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
+import static java.sql.DriverManager.println;
+
 
 public class testeJSON extends JFrame{
     private static final long serialVersionUID = 1L;
@@ -12,7 +14,7 @@ public class testeJSON extends JFrame{
     private static BufferedReader read;
     private static BufferedWriter write;
 
-    public testeJSON() {
+    public testeJSON() throws MalformedURLException, FileNotFoundException {
         FileNameExtensionFilter filter = new FileNameExtensionFilter("comma separated values", "csv");
         JFileChooser choice = new JFileChooser();
         choice.setFileFilter(filter); //limit the files displayed
@@ -23,20 +25,43 @@ public class testeJSON extends JFrame{
                 "Do you want to open a local file or provide a URL?",
                 "Open file", JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE,
                 null, options, options[0]);
+        InputStream input;
+        BufferedReader reader;
+        CSVFile = null;
+        URL url;
 
         if (urlOption == 1) { // URL option
             String urlStr = JOptionPane.showInputDialog(this,
                     "Enter the URL of the CSV file:");
             try {
-                URL url = new URL(urlStr);
-                convert(url.openStream());
+                url = new URL(urlStr);
+                input = url.openStream();
+                reader = new BufferedReader(new InputStreamReader(input));
+
+                String outputFileName = url.getFile();
+                int index = outputFileName.lastIndexOf("/");
+                if (index > -1) {
+                    outputFileName = outputFileName.substring(index + 1);
+                }
+                CSVFile = new File(outputFileName);
+
+                BufferedWriter writer = new BufferedWriter(new FileWriter(CSVFile));
+                String line = reader.readLine();
+                while (line != null) {
+                    writer.write(line);
+                    writer.newLine();
+                    line = reader.readLine();
+                }
+
+                reader.close();
+                input.close();
+                writer.close();
             } catch (MalformedURLException e) {
-                JOptionPane.showMessageDialog(this, "Invalid URL. Program will exit.",
-                        "System Dialog", JOptionPane.PLAIN_MESSAGE);
-                System.exit(1);
+                e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            convert(new FileInputStream(CSVFile));
         } else { // local file option
             int option = choice.showOpenDialog(this);
             if (option == JFileChooser.APPROVE_OPTION) {
@@ -55,35 +80,35 @@ public class testeJSON extends JFrame{
     }
 
 
-    public static void main(String args[]){
+    public static void main(String args[]) throws MalformedURLException, FileNotFoundException {
         testeJSON parse = new testeJSON();
         System.exit(0);
     }
 
     private static void convert(InputStream input) {
         /* Converts a .csv file to .json. Assumes first line is header with columns */
-        try {
-            read = new BufferedReader(new InputStreamReader(input));
+            try {
+                read = new BufferedReader(new InputStreamReader(input));
+                String outputName = CSVFile.toString().substring(0,
+                        CSVFile.toString().lastIndexOf(".")) + ".json";
+                File file = new File(outputName);
+                write = new BufferedWriter(new FileWriter(file));
 
-            String outputName = CSVFile.toString().substring(0,
-                    CSVFile.toString().lastIndexOf(".")) + ".json";
-            write = new BufferedWriter(new FileWriter(new File(outputName)));
+                String line;
+                String columns[]; //contains column names
+                int num_cols;
+                String tokens[];
 
-            String line;
-            String columns[]; //contains column names
-            int num_cols;
-            String tokens[];
+                int progress = 0; //check progress
 
-            int progress = 0; //check progress
-
-            //initialize columns
-            line = read.readLine();
-            columns = line.split(",");
-            num_cols = columns.length;
+                //initialize columns
+                line = read.readLine();
+                columns = line.split(",");
+                num_cols = columns.length;
 
 
-            write.write("["); //begin file as array
-            line = read.readLine();
+                write.write("["); //begin file as array
+                line = read.readLine();
 
 
             while (true) {
