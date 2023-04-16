@@ -6,12 +6,10 @@ import java.net.URL;
 import java.util.ArrayList;
 
 
-public class JSONtoCSV extends JFrame {
+public class jsontocsv extends JFrame {
     private static final long serialVersionUID = 1L;
     private static File JSONFile;
-    private static BufferedReader inputFile;
-    private static BufferedWriter outputFile;
-    public JSONtoCSV() throws FileNotFoundException {
+    public jsontocsv() throws FileNotFoundException {
         FileNameExtensionFilter filter = new FileNameExtensionFilter("javascript object notation", "json");
         JFileChooser choice = new JFileChooser();
         choice.setFileFilter(filter);
@@ -22,7 +20,6 @@ public class JSONtoCSV extends JFrame {
                 null, options, options[0]);
         InputStream input;
         BufferedReader reader;
-        JSONFile = null;
         URL url;
         if (urlOption == 1) { // URL option
             String urlStr = JOptionPane.showInputDialog(this,
@@ -37,19 +34,14 @@ public class JSONtoCSV extends JFrame {
                 if (index > -1) {
                     outputFileName = outputFileName.substring(index + 1);
                 }
-                JSONFile = new File(outputFileName);
 
-                BufferedWriter writer = new BufferedWriter(new FileWriter(JSONFile));
+                BufferedWriter writer = new BufferedWriter(new FileWriter(new File(outputFileName)));
                 String line = reader.readLine();
                 while (line != null) {
                     writer.write(line);
                     writer.newLine();
                     line = reader.readLine();
                 }
-
-                reader.close();
-                input.close();
-                writer.close();
             } catch (MalformedURLException e) {
                 JOptionPane.showMessageDialog(this, "Invalid URL. Program will exit.",
                         "System Dialog", JOptionPane.PLAIN_MESSAGE);
@@ -57,13 +49,12 @@ public class JSONtoCSV extends JFrame {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            jsonToCsv(new FileInputStream(JSONFile));
+            jsoncsv(new FileInputStream(JSONFile));
         } else { // local file option
             int option = choice.showOpenDialog(this);
             if (option == JFileChooser.APPROVE_OPTION) {
-                JSONFile = choice.getSelectedFile();
                 try {
-                    jsonToCsv(new FileInputStream(JSONFile));
+                    jsoncsv(new FileInputStream(choice.getSelectedFile()));
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 }
@@ -75,13 +66,13 @@ public class JSONtoCSV extends JFrame {
         }
     }
     public static void main(String[] args) throws FileNotFoundException {
-        JSONtoCSV convert = new JSONtoCSV();
+        new jsontocsv();
         System.exit(0);
     }
 
-    private static void jsonToCsv(InputStream input) {
-        String csvFilePath = "horario-final.csv";
-
+    private static void jsoncsv(InputStream input) {
+        BufferedWriter outputFile;
+        BufferedReader inputFile;
         try {
 
             inputFile = new BufferedReader(new InputStreamReader(input));
@@ -131,10 +122,10 @@ public class JSONtoCSV extends JFrame {
                     String[] keyValue = field.split(": ");
 
                     if (isFirstLine) {
-                        headers.add(keyValue[0].replaceAll("\"", ""));
+                        headers.add(keyValue[0].replace("\"", ""));
                     }
 
-                    String value = keyValue[1].replaceAll("\"", "");
+                    String value = keyValue[1].replace("\"", "");
                     values.add(value);
                 }
 
