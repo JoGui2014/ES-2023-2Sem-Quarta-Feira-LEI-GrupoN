@@ -6,10 +6,10 @@ import java.net.URL;
 import java.util.ArrayList;
 
 
-public class jsontocsv extends JFrame {
+public class Jsontocsv extends JFrame {
     private static final long serialVersionUID = 1L;
-    private static File JSONFile;
-    public jsontocsv() throws FileNotFoundException {
+    private static File jsonfile;
+    public Jsontocsv() throws FileNotFoundException {
         FileNameExtensionFilter filter = new FileNameExtensionFilter("javascript object notation", "json");
         JFileChooser choice = new JFileChooser();
         choice.setFileFilter(filter);
@@ -49,7 +49,7 @@ public class jsontocsv extends JFrame {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            jsoncsv(new FileInputStream(JSONFile));
+            jsoncsv(new FileInputStream(jsonfile));
         } else { // local file option
             int option = choice.showOpenDialog(this);
             if (option == JFileChooser.APPROVE_OPTION) {
@@ -66,18 +66,17 @@ public class jsontocsv extends JFrame {
         }
     }
     public static void main(String[] args) throws FileNotFoundException {
-        new jsontocsv();
+        new Jsontocsv();
         System.exit(0);
     }
 
     private static void jsoncsv(InputStream input) {
-        BufferedWriter outputFile;
         BufferedReader inputFile;
         try {
 
             inputFile = new BufferedReader(new InputStreamReader(input));
-            String outputName = JSONFile.toString().substring(0,
-                    JSONFile.toString().lastIndexOf(".")) + ".csv";
+            String outputName = jsonfile.toString().substring(0,
+                    jsonfile.toString().lastIndexOf(".")) + ".csv";
 
             String line;
             ArrayList<String> headers = new ArrayList<>();
@@ -139,12 +138,12 @@ public class jsontocsv extends JFrame {
             csvLines.add(0, String.join(",", headers));
 
             // write CSV lines to file
-            outputFile = new BufferedWriter(new FileWriter(new File(outputName)));
-            for (String csvLine : csvLines) {
-                outputFile.append(csvLine);
-                outputFile.append(System.lineSeparator());
+            try(BufferedWriter outputFile = new BufferedWriter(new FileWriter(new File(outputName)));){
+                for (String csvLine : csvLines) {
+                    outputFile.append(csvLine);
+                    outputFile.append(System.lineSeparator());
+                }
             }
-            outputFile.close();
 
         } catch (IOException e) {
             e.printStackTrace();
