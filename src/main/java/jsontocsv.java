@@ -19,7 +19,6 @@ public class jsontocsv extends JFrame {
                 "Open file", JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE,
                 null, options, options[0]);
         InputStream input;
-        BufferedReader reader;
         URL url;
         if (urlOption == 1) { // URL option
             String urlStr = JOptionPane.showInputDialog(this,
@@ -27,21 +26,22 @@ public class jsontocsv extends JFrame {
             try {
                 url = new URL(urlStr);
                 input = url.openStream();
-                reader = new BufferedReader(new InputStreamReader(input));
+              try(BufferedReader reader = new BufferedReader(new InputStreamReader(input))){
+                  String outputFileName = url.getFile();
+                  int index = outputFileName.lastIndexOf("/");
+                  if (index > -1) {
+                      outputFileName = outputFileName.substring(index + 1);
+                  }
 
-                String outputFileName = url.getFile();
-                int index = outputFileName.lastIndexOf("/");
-                if (index > -1) {
-                    outputFileName = outputFileName.substring(index + 1);
-                }
-
-                BufferedWriter writer = new BufferedWriter(new FileWriter(new File(outputFileName)));
-                String line = reader.readLine();
-                while (line != null) {
-                    writer.write(line);
-                    writer.newLine();
-                    line = reader.readLine();
-                }
+                  try(BufferedWriter writer = new BufferedWriter(new FileWriter(new File(outputFileName)))) {
+                      String line = reader.readLine();
+                      while (line != null) {
+                          writer.write(line);
+                          writer.newLine();
+                          line = reader.readLine();
+                      }
+                  }
+              }
             } catch (MalformedURLException e) {
                 JOptionPane.showMessageDialog(this, "Invalid URL. Program will exit.",
                         "System Dialog", JOptionPane.PLAIN_MESSAGE);
