@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="megamaven" options="--add-modules java.desktop,java.base,java.sql" />
+      <module name="megamaven" options="" />
     </option>
   </component>
 </project>
