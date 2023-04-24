@@ -53,8 +53,13 @@ public class Jsontocsv extends JFrame {
         } else { // local file option
             int option = choice.showOpenDialog(this);
             if (option == JFileChooser.APPROVE_OPTION) {
+                jsonfile = choice.getSelectedFile();
+                System.out.println("option:" +  option);
                 try {
-                    jsoncsv(new FileInputStream(choice.getSelectedFile()));
+                    FileInputStream c = new FileInputStream(choice.getSelectedFile());
+                    System.out.println("file:" +  c.toString());
+
+                    jsoncsv(new FileInputStream(jsonfile));
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 }
