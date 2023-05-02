@@ -49,7 +49,7 @@ public class Jsontocsv extends JFrame {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            jsoncsv(new FileInputStream(jsonfile));
+            jsoncsv(jsonfile);
         } else { // local file option
             int option = choice.showOpenDialog(this);
             if (option == JFileChooser.APPROVE_OPTION) {
@@ -59,7 +59,7 @@ public class Jsontocsv extends JFrame {
                     FileInputStream c = new FileInputStream(choice.getSelectedFile());
                     System.out.println("file:" +  c.toString());
 
-                    jsoncsv(new FileInputStream(jsonfile));
+                    jsoncsv(jsonfile);
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 }
@@ -75,11 +75,12 @@ public class Jsontocsv extends JFrame {
         System.exit(0);
     }
 
-    private static void jsoncsv(InputStream input) {
+    static void jsoncsv(File input) {
+        jsonfile=input;
         BufferedReader inputFile;
         try {
 
-            inputFile = new BufferedReader(new InputStreamReader(input));
+            inputFile = new BufferedReader(new InputStreamReader(new FileInputStream(jsonfile)));
             String outputName = jsonfile.toString().substring(0,
                     jsonfile.toString().lastIndexOf(".")) + ".csv";
 
