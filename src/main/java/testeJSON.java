@@ -61,16 +61,12 @@ public class testeJSON extends JFrame{
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            convert(new FileInputStream(CSVFile));
+            convert(CSVFile);
         } else { // local file option
             int option = choice.showOpenDialog(this);
             if (option == JFileChooser.APPROVE_OPTION) {
                 CSVFile = choice.getSelectedFile();
-                try {
-                    convert(new FileInputStream(CSVFile));
-                } catch (FileNotFoundException e) {
-                    e.printStackTrace();
-                }
+                convert(CSVFile);
             } else {
                 JOptionPane.showMessageDialog(this, "Did not select file. Program will exit.",
                         "System Dialog", JOptionPane.PLAIN_MESSAGE);
@@ -85,10 +81,11 @@ public class testeJSON extends JFrame{
         System.exit(0);
     }
 
-    private static void convert(InputStream input) {
+    static void convert(File input) {
         /* Converts a .csv file to .json. Assumes first line is header with columns */
+        CSVFile=input;
             try {
-                read = new BufferedReader(new InputStreamReader(input));
+                read = new BufferedReader(new InputStreamReader(new FileInputStream(CSVFile)));
                 String outputName = CSVFile.toString().substring(0,
                         CSVFile.toString().lastIndexOf(".")) + ".json";
                 File file = new File(outputName);

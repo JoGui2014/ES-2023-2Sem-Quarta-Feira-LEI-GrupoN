@@ -12,7 +12,7 @@ class JsontocsvTest {
     @Test
     void testFileEquality() throws IOException {
         File file1 = new File("industry-Expected.csv");
-        File file2 = new File("industry.json");
+        File file2 = new File("industry-Expected.json");
 
         assertTrue(Files.isReadable(file1.toPath()), "file1 is not readable");
         assertTrue(Files.isReadable(file2.toPath()), "file2 is not readable");
