@@ -1,0 +1,32 @@
+.custom-select {
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    width: 400 px;
+    height: 60 px;
+    background-color: #fff;
+    color: #555;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #f7f7f7, #f1f1f1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-select: hover {
+    background-image: linear-gradient(to bottom, #fff, #f1f1f1);
+}
+
+.custom-select option {
+    font-size: 12px;
+    background-color: #fff;
+    color: #555;
+}
+
+.custom-select option:checked {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
