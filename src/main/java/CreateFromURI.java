@@ -25,41 +25,37 @@ public class CreateFromURI {
 
         if (webcalURL.startsWith("webcal")) {
             webcalURL = "https" + webcalURL.substring(6);
-            //resolver a leitura de webcal
         }
 
-
-        List<VEvent> events = getEventsFromWebcal(webcalURL);
-        JSONObject eventsJson = new JSONObject();
-        if (events != null) {
-            for (VEvent event : events) {
-                JSONObject eventJson = new JSONObject();
-                eventJson.put("summary", event.getSummary().getValue());
-                eventJson.put("start", event.getDateStart().getValue());
-                eventJson.put("end", event.getDateEnd().getValue());
-                eventsJson.append("aulas", eventJson);
-            }
-
-            // webCalString.push(event.getSummary().getValue() + ": " + event.getDateStart().getValue());
-            //System.out.println(event.getSummary().getValue() + ": " + event.getDateStart().getValue());
-            //escreve na cmd, alterar(?)
-        }
-        String filePath = "src/jsonFiles/webCalendar.json";
-
-        try (FileWriter file = new FileWriter(filePath)) {
-            file.write(eventsJson.toString());
+        List<VEvent> events = getClassroomFromLink(webcalURL);
+        String end = createJson(events).toString(5);
+        String filePath = "src/webCalendar.json";
+        try (BufferedWriter file = new BufferedWriter(new FileWriter(filePath))) {
+            file.write(end);
+            file.newLine();
             file.flush();
             System.out.println("Successfully saved JSONObject to file!");
         } catch (IOException e) {
             e.printStackTrace();
-        }       // } else {
-        //System.out.println("No events found in webcal URL");
-        // }
+        }
+
+    }
+    public JSONObject createJson(List<VEvent> classes){
+        JSONObject json = new JSONObject();
+        if (classes != null) {
+            for (VEvent classroom : classes) {
+                JSONObject jsons = new JSONObject();
+                jsons.put("summary", classroom.getSummary().getValue());
+                jsons.put("start", classroom.getDateStart().getValue());
+                jsons.put("end", classroom.getDateEnd().getValue());
+                jsons.put("location", classroom.getLocation().getValue());
+                json.append("aulas", jsons);
+            }
+        }
+        return json;
     }
 
-
-
-    public static List<VEvent> getEventsFromWebcal(String webcalUrl) {
+    public static List<VEvent> getClassroomFromLink(String webcalUrl) {
         try {
             URL url = new URL(webcalUrl);
 
@@ -74,6 +70,11 @@ public class CreateFromURI {
             return null;
         }
 
+    }
+
+    public static void main(String[] args) throws JsonProcessingException {
+        String uri = "webcal://fenix.iscte-iul.pt/publico/publicPersonICalendar.do?method=iCalendar&username=avsmm@iscte.pt&password=NaneDPf4lWconuF4UuHHptGH9ZfjfjD677VcFhnJTeltafE2JtWwYyvCf4zZ8AyMpIDoOouT2OZNISmi4EAjRfLhHeZwzPzs1BweVlggz8lAvCtNzdo4DfsZBHErCZwf";
+         new CreateFromURI(uri);
     }
 
 }
