@@ -8,6 +8,7 @@ public class CreateWithUC {
     private List<String> ucs;
 
     public CreateWithUC() {
+        System.out.println("ola");
         this.ucs = new ArrayList<>();
     }
 
