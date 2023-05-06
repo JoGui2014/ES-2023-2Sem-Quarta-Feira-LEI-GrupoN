@@ -105,6 +105,16 @@ public class Horario {
         return diaMap;
     }
 
+    public void removeAula(String aulaName){
+        for (Aula a : this.aulas) {
+            if(a.uc.equalsIgnoreCase(aulaName))
+                this.aulas.remove(a);
+        }
+    }
+
+    public void removeAula(Aula a){
+        this.aulas.remove(a);
+    }
     public void addAula(Aula a){
         this.aulas.add(a);
     }

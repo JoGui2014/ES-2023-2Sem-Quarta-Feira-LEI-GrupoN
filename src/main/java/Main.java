@@ -6,16 +6,9 @@ import java.util.Scanner;
 
 public class Main {
 
-    public void adicionarUC(String uc) {
-        this.ucs.add(uc);
-    }
-
-    public void removerUC(String uc) {
-        this.ucs.remove(uc);
-    }
-
     public void gravarHorarioCSV(String nomeFicheiro) {
-        try {
+        //tafuq does this mean
+        /*try {
             File file = new File(nomeFicheiro);
             FileWriter writer = new FileWriter(file);
 
@@ -31,12 +24,12 @@ public class Main {
             System.out.println("File saved in directory: " + directory);
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 
 
     public void gravarHorarioJSON(String nomeFicheiro) {
-        try {
+       /* try {
             File file = new File(nomeFicheiro);
             FileWriter writer = new FileWriter(file);
 
@@ -57,16 +50,17 @@ public class Main {
 
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 
     public static void main(String[] args) {
         //ISTO TEM Q SER TUDO MUDADO
 
+    /*
         System.out.println("Horário do Estudante");
         boolean exit = false;
 
-       /* while (!exit) {
+        while (!exit) {
             System.out.println("1. Adicionar UC");
             System.out.println("2. Remover UC");
             System.out.println("3. Imprimir Horário");
