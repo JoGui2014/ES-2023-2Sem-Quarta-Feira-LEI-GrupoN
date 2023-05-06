@@ -69,8 +69,9 @@ public class CreateWithUC {
         CreateWithUC horario = new CreateWithUC();
 
         System.out.println("Horário do Estudante");
+        boolean exit = false;
 
-        while (true) {
+        while (!exit) {
             System.out.println("1. Adicionar UC");
             System.out.println("2. Remover UC");
             System.out.println("3. Imprimir Horário");
@@ -79,28 +80,53 @@ public class CreateWithUC {
             System.out.println("0. Sair");
 
             int opcao = scanner.nextInt();
+            scanner.nextLine(); // Consume the newline character
 
-            if (opcao == 0) {
-                break;
-            } else if (opcao == 1) {
-                System.out.println("Insira o nome da UC:");
-                String uc = scanner.next();
-                horario.adicionarUC(uc);
-            } else if (opcao == 2) {
-                System.out.println("Insira o nome da UC:");
-                String uc = scanner.next();
-                horario.removerUC(uc);
-            } else if (opcao == 3) {
-                horario.imprimirHorario();
-            } else if (opcao == 4) {
-                System.out.println("Insira o nome do ficheiro:");
-                String nomeFicheiro = scanner.next();
-                horario.gravarHorarioCSV(nomeFicheiro);
-            } else if (opcao == 5) {
-                System.out.println("Insira o nome do ficheiro:");
-                String nomeFicheiro = scanner.next();
-                horario.gravarHorarioJSON(nomeFicheiro);
+            switch (opcao) {
+                case 0:
+                    exit = true;
+                    break;
+                case 1:
+                    System.out.println("Insira o nome da UC:");
+                    String uc = scanner.nextLine();
+                    horario.adicionarUC(uc);
+                    System.out.println("UC adicionada");
+                    break;
+                case 2:
+                    System.out.println("Insira o nome da UC:");
+                    String uc2 = scanner.nextLine();
+                    horario.removerUC(uc2);
+                    System.out.println("UC removida");
+                    break;
+                case 3:
+                    horario.imprimirHorario();
+                    break;
+                case 4:
+                    System.out.println("Insira o nome do ficheiro:");
+                    String nomeFicheiro = scanner.nextLine();
+                    horario.gravarHorarioCSV(nomeFicheiro);
+                    System.out.println("Horário gravado com sucesso");
+
+                    break;
+                case 5:
+                    System.out.println("Insira o nome do ficheiro:");
+                    String nomeFicheiro2 = scanner.nextLine();
+                    horario.gravarHorarioJSON(nomeFicheiro2);
+                    System.out.println("Horário gravado com sucesso");
+
+                    break;
+                default:
+                    System.out.println("Opção inválida. Tente novamente.");
+                    break;
+            }
+
+            if (!exit) {
+                System.out.println("Pressione Enter para voltar ao Menu...");
+                scanner.nextLine(); // Wait for Enter key
             }
         }
     }
+
+
+
 }
