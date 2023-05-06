@@ -61,13 +61,12 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        //ISTO TEM Q SER TUDO MUDADO
 
-        System.out.println("Insira o nome do ficheiro ");
         System.out.println("Horário do Estudante");
         boolean exit = false;
 
-        while (!exit) {
+       /* while (!exit) {
             System.out.println("1. Adicionar UC");
             System.out.println("2. Remover UC");
             System.out.println("3. Imprimir Horário");
@@ -118,9 +117,7 @@ public class Main {
                 System.out.println("Pressione Enter para voltar ao Menu...");
                 scanner.nextLine(); // Wait for Enter key
             }
-        }
+        }*/
     }
-
-
 
 }
