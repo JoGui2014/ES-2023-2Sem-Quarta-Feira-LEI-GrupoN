@@ -25,7 +25,7 @@ class testeJSONTest {
         testeJSON.convert(file2);
 
         // verify that the JSON file was created and contains the expected data
-        File file3 = new File("industry.json");
+        File file3 = new File("industry-expected.json");
 
         assertArrayEquals(Files.readAllBytes(file1.toPath()), Files.readAllBytes(file3.toPath()),
                 "Files are not equal");
