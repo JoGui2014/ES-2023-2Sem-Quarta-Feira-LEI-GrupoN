@@ -1,0 +1,2462 @@
+{"aulas": [
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Tue Sep 13 18:00:00 WEST 2022",
+          "end": "Tue Sep 13 19:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Apr 24 09:30:00 WEST 2023",
+          "end": "Mon Apr 24 11:00:00 WEST 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Feb 13 21:00:00 WET 2023",
+          "end": "Mon Feb 13 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Mar 29 18:00:00 WEST 2023",
+          "end": "Wed Mar 29 19:30:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Tue Sep 27 18:00:00 WEST 2022",
+          "end": "Tue Sep 27 19:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Fri Oct 21 18:00:00 WEST 2022",
+          "end": "Fri Oct 21 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Mar 15 18:00:00 WET 2023",
+          "end": "Wed Mar 15 19:30:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Oct 25 19:30:00 WEST 2022",
+          "end": "Tue Oct 25 21:00:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Nov 11 19:30:00 WET 2022",
+          "end": "Fri Nov 11 21:00:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue May 09 19:30:00 WEST 2023",
+          "end": "Tue May 09 21:00:00 WEST 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Wed Mar 22 21:00:00 WET 2023",
+          "end": "Wed Mar 22 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Mar 13 09:30:00 WET 2023",
+          "end": "Mon Mar 13 11:00:00 WET 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Feb 27 21:00:00 WET 2023",
+          "end": "Mon Feb 27 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Oct 21 21:00:00 WEST 2022",
+          "end": "Fri Oct 21 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Mon Sep 26 19:30:00 WEST 2022",
+          "end": "Mon Sep 26 21:00:00 WEST 2022",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Nov 02 21:00:00 WET 2022",
+          "end": "Wed Nov 02 22:30:00 WET 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon May 15 11:00:00 WEST 2023",
+          "end": "Mon May 15 12:30:00 WEST 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Oct 04 19:30:00 WEST 2022",
+          "end": "Tue Oct 04 21:00:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Wed Dec 14 18:00:00 WET 2022",
+          "end": "Wed Dec 14 19:30:00 WET 2022",
+          "location": "C7.06, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Apr 11 19:30:00 WEST 2023",
+          "end": "Tue Apr 11 21:00:00 WEST 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Mar 14 21:00:00 WET 2023",
+          "end": "Tue Mar 14 22:30:00 WET 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Mon Mar 27 18:00:00 WEST 2023",
+          "end": "Mon Mar 27 19:30:00 WEST 2023",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Mon Nov 14 18:00:00 WET 2022",
+          "end": "Mon Nov 14 19:30:00 WET 2022",
+          "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Sep 21 19:30:00 WEST 2022",
+          "end": "Wed Sep 21 21:00:00 WEST 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Thu Dec 15 18:00:00 WET 2022",
+          "end": "Thu Dec 15 19:30:00 WET 2022",
+          "location": "1E05, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Wed Feb 15 21:00:00 WET 2023",
+          "end": "Wed Feb 15 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Mon Feb 27 18:00:00 WET 2023",
+          "end": "Mon Feb 27 19:30:00 WET 2023",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Thu Apr 27 21:00:00 WEST 2023",
+          "end": "Thu Apr 27 22:30:00 WEST 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Nov 02 19:30:00 WET 2022",
+          "end": "Wed Nov 02 21:00:00 WET 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Mon Nov 14 19:30:00 WET 2022",
+          "end": "Mon Nov 14 21:00:00 WET 2022",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Nov 15 19:30:00 WET 2022",
+          "end": "Tue Nov 15 21:00:00 WET 2022",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Oct 28 21:00:00 WEST 2022",
+          "end": "Fri Oct 28 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Tue Nov 08 21:00:00 WET 2022",
+          "end": "Tue Nov 08 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Mar 27 21:00:00 WEST 2023",
+          "end": "Mon Mar 27 22:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Oct 19 19:30:00 WEST 2022",
+          "end": "Wed Oct 19 21:00:00 WEST 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Feb 13 11:00:00 WET 2023",
+          "end": "Mon Feb 13 12:30:00 WET 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Mar 22 19:30:00 WET 2023",
+          "end": "Wed Mar 22 21:00:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Thu Apr 27 19:30:00 WEST 2023",
+          "end": "Thu Apr 27 21:00:00 WEST 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Oct 10 21:00:00 WEST 2022",
+          "end": "Mon Oct 10 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Oct 03 21:00:00 WEST 2022",
+          "end": "Mon Oct 03 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Fri Sep 23 18:00:00 WEST 2022",
+          "end": "Fri Sep 23 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Thu Nov 03 13:00:00 WET 2022",
+          "end": "Thu Nov 03 14:30:00 WET 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Tue Nov 22 18:00:00 WET 2022",
+          "end": "Tue Nov 22 19:30:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Fri Nov 11 13:00:00 WET 2022",
+          "end": "Fri Nov 11 14:30:00 WET 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Mar 24 19:30:00 WET 2023",
+          "end": "Fri Mar 24 21:00:00 WET 2023",
+          "location": "C4.02, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Mar 03 18:00:00 WET 2023",
+          "end": "Fri Mar 03 19:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Wed Nov 02 18:00:00 WET 2022",
+          "end": "Wed Nov 02 19:30:00 WET 2022",
+          "location": "C7.06, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Tue Dec 06 18:00:00 WET 2022",
+          "end": "Tue Dec 06 19:30:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Tue Oct 04 18:00:00 WEST 2022",
+          "end": "Tue Oct 04 19:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Nov 04 19:30:00 WET 2022",
+          "end": "Fri Nov 04 21:00:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Mon Oct 03 18:00:00 WEST 2022",
+          "end": "Mon Oct 03 19:30:00 WEST 2022",
+          "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Nov 08 19:30:00 WET 2022",
+          "end": "Tue Nov 08 21:00:00 WET 2022",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Feb 10 19:30:00 WET 2023",
+          "end": "Fri Feb 10 21:00:00 WET 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Tue Mar 28 18:00:00 WEST 2023",
+          "end": "Tue Mar 28 19:30:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Mar 10 18:00:00 WET 2023",
+          "end": "Fri Mar 10 19:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Mar 13 21:00:00 WET 2023",
+          "end": "Mon Mar 13 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Thu Oct 06 13:00:00 WEST 2022",
+          "end": "Thu Oct 06 14:30:00 WEST 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Fri Apr 28 21:00:00 WEST 2023",
+          "end": "Fri Apr 28 22:30:00 WEST 2023",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Sep 30 19:30:00 WEST 2022",
+          "end": "Fri Sep 30 21:00:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Wed May 10 21:00:00 WEST 2023",
+          "end": "Wed May 10 22:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Tue Nov 22 18:00:00 WET 2022",
+          "end": "Tue Nov 22 19:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Fri Sep 16 18:00:00 WEST 2022",
+          "end": "Fri Sep 16 19:30:00 WEST 2022",
+          "location": "D1.09, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Tue Dec 13 18:00:00 WET 2022",
+          "end": "Tue Dec 13 19:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Tue Sep 20 18:00:00 WEST 2022",
+          "end": "Tue Sep 20 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Tue Oct 18 21:00:00 WEST 2022",
+          "end": "Tue Oct 18 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Fri Oct 21 18:00:00 WEST 2022",
+          "end": "Fri Oct 21 19:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Oct 07 19:30:00 WEST 2022",
+          "end": "Fri Oct 07 21:00:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Thu Nov 24 18:00:00 WET 2022",
+          "end": "Thu Nov 24 19:30:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Thu Oct 06 21:00:00 WEST 2022",
+          "end": "Thu Oct 06 22:30:00 WEST 2022",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Mon Sep 19 18:00:00 WEST 2022",
+          "end": "Mon Sep 19 19:30:00 WEST 2022",
+          "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Fri Apr 14 21:00:00 WEST 2023",
+          "end": "Fri Apr 14 22:30:00 WEST 2023",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Wed Mar 29 21:00:00 WEST 2023",
+          "end": "Wed Mar 29 22:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Feb 07 21:00:00 WET 2023",
+          "end": "Tue Feb 07 22:30:00 WET 2023",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon May 22 21:00:00 WEST 2023",
+          "end": "Mon May 22 22:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Apr 14 19:30:00 WEST 2023",
+          "end": "Fri Apr 14 21:00:00 WEST 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Nov 16 19:30:00 WET 2022",
+          "end": "Wed Nov 16 21:00:00 WET 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon May 15 09:30:00 WEST 2023",
+          "end": "Mon May 15 11:00:00 WEST 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Mar 08 19:30:00 WET 2023",
+          "end": "Wed Mar 08 21:00:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon May 08 11:00:00 WEST 2023",
+          "end": "Mon May 08 12:30:00 WEST 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Tue Oct 18 18:00:00 WEST 2022",
+          "end": "Tue Oct 18 19:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Mar 07 19:30:00 WET 2023",
+          "end": "Tue Mar 07 21:00:00 WET 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed May 10 18:00:00 WEST 2023",
+          "end": "Wed May 10 19:30:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Thu Oct 20 13:00:00 WEST 2022",
+          "end": "Thu Oct 20 14:30:00 WEST 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Mar 20 19:30:00 WET 2023",
+          "end": "Mon Mar 20 21:00:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Mar 22 18:00:00 WET 2023",
+          "end": "Wed Mar 22 19:30:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Apr 18 19:30:00 WEST 2023",
+          "end": "Tue Apr 18 21:00:00 WEST 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon May 08 19:30:00 WEST 2023",
+          "end": "Mon May 08 21:00:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Tue Oct 11 21:00:00 WEST 2022",
+          "end": "Tue Oct 11 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon May 08 09:30:00 WEST 2023",
+          "end": "Mon May 08 11:00:00 WEST 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Fri May 12 21:00:00 WEST 2023",
+          "end": "Fri May 12 22:30:00 WEST 2023",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Mar 27 09:30:00 WEST 2023",
+          "end": "Mon Mar 27 11:00:00 WEST 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Thu Sep 22 13:00:00 WEST 2022",
+          "end": "Thu Sep 22 14:30:00 WEST 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Oct 07 21:00:00 WEST 2022",
+          "end": "Fri Oct 07 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Mar 14 19:30:00 WET 2023",
+          "end": "Tue Mar 14 21:00:00 WET 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Dec 02 21:00:00 WET 2022",
+          "end": "Fri Dec 02 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Fri Feb 17 21:00:00 WET 2023",
+          "end": "Fri Feb 17 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Sep 13 19:30:00 WEST 2022",
+          "end": "Tue Sep 13 21:00:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Tue Nov 29 18:00:00 WET 2022",
+          "end": "Tue Nov 29 19:30:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon May 29 11:00:00 WEST 2023",
+          "end": "Mon May 29 12:30:00 WEST 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Mar 15 19:30:00 WET 2023",
+          "end": "Wed Mar 15 21:00:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Mon May 08 18:00:00 WEST 2023",
+          "end": "Mon May 08 19:30:00 WEST 2023",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Nov 23 19:30:00 WET 2022",
+          "end": "Wed Nov 23 21:00:00 WET 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Feb 17 18:00:00 WET 2023",
+          "end": "Fri Feb 17 19:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Mar 01 18:00:00 WET 2023",
+          "end": "Wed Mar 01 19:30:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Oct 26 19:30:00 WEST 2022",
+          "end": "Wed Oct 26 21:00:00 WEST 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed May 17 19:30:00 WEST 2023",
+          "end": "Wed May 17 21:00:00 WEST 2023",
+          "location": "0S08, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Tue Sep 27 21:00:00 WEST 2022",
+          "end": "Tue Sep 27 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Thu Oct 13 18:00:00 WEST 2022",
+          "end": "Thu Oct 13 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Oct 12 19:30:00 WEST 2022",
+          "end": "Wed Oct 12 21:00:00 WEST 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Sep 14 21:00:00 WEST 2022",
+          "end": "Wed Sep 14 22:30:00 WEST 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Thu Dec 15 19:30:00 WET 2022",
+          "end": "Thu Dec 15 21:00:00 WET 2022",
+          "location": "1E05, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Sep 26 21:00:00 WEST 2022",
+          "end": "Mon Sep 26 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Fri Feb 10 21:00:00 WET 2023",
+          "end": "Fri Feb 10 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Feb 15 19:30:00 WET 2023",
+          "end": "Wed Feb 15 21:00:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Tue Mar 21 18:00:00 WET 2023",
+          "end": "Tue Mar 21 19:30:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Thu Nov 10 18:00:00 WET 2022",
+          "end": "Thu Nov 10 19:30:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Feb 14 19:30:00 WET 2023",
+          "end": "Tue Feb 14 21:00:00 WET 2023",
+          "location": "0S02, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Wed Sep 14 18:00:00 WEST 2022",
+          "end": "Wed Sep 14 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Mon Apr 17 18:00:00 WEST 2023",
+          "end": "Mon Apr 17 19:30:00 WEST 2023",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Mon Oct 10 18:00:00 WEST 2022",
+          "end": "Mon Oct 10 19:30:00 WEST 2022",
+          "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Mon Oct 03 19:30:00 WEST 2022",
+          "end": "Mon Oct 03 21:00:00 WEST 2022",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Feb 17 19:30:00 WET 2023",
+          "end": "Fri Feb 17 21:00:00 WET 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Wed Sep 28 18:00:00 WEST 2022",
+          "end": "Wed Sep 28 19:30:00 WEST 2022",
+          "location": "C7.06, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Mon May 15 18:00:00 WEST 2023",
+          "end": "Mon May 15 19:30:00 WEST 2023",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Mar 13 11:00:00 WET 2023",
+          "end": "Mon Mar 13 12:30:00 WET 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Wed Mar 01 21:00:00 WET 2023",
+          "end": "Wed Mar 01 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Sep 28 19:30:00 WEST 2022",
+          "end": "Wed Sep 28 21:00:00 WEST 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon May 15 21:00:00 WEST 2023",
+          "end": "Mon May 15 22:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Nov 30 21:00:00 WET 2022",
+          "end": "Wed Nov 30 22:30:00 WET 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Wed Nov 23 18:00:00 WET 2022",
+          "end": "Wed Nov 23 19:30:00 WET 2022",
+          "location": "C7.06, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Feb 07 21:00:00 WET 2023",
+          "end": "Tue Feb 07 22:30:00 WET 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Apr 14 18:00:00 WEST 2023",
+          "end": "Fri Apr 14 19:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Mon Mar 20 18:00:00 WET 2023",
+          "end": "Mon Mar 20 19:30:00 WET 2023",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Nov 21 21:00:00 WET 2022",
+          "end": "Mon Nov 21 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Mar 20 11:00:00 WET 2023",
+          "end": "Mon Mar 20 12:30:00 WET 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Nov 23 21:00:00 WET 2022",
+          "end": "Wed Nov 23 22:30:00 WET 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Tue Sep 13 18:00:00 WEST 2022",
+          "end": "Tue Sep 13 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Feb 13 19:30:00 WET 2023",
+          "end": "Mon Feb 13 21:00:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Mon Oct 24 18:00:00 WEST 2022",
+          "end": "Mon Oct 24 19:30:00 WEST 2022",
+          "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Feb 27 19:30:00 WET 2023",
+          "end": "Mon Feb 27 21:00:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Oct 17 21:00:00 WEST 2022",
+          "end": "Mon Oct 17 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Thu Oct 20 18:00:00 WEST 2022",
+          "end": "Thu Oct 20 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Fri Nov 11 18:00:00 WET 2022",
+          "end": "Fri Nov 11 19:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Apr 24 19:30:00 WEST 2023",
+          "end": "Mon Apr 24 21:00:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Wed Oct 12 18:00:00 WEST 2022",
+          "end": "Wed Oct 12 19:30:00 WEST 2022",
+          "location": "C7.06, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Fri Oct 28 13:00:00 WEST 2022",
+          "end": "Fri Oct 28 14:30:00 WEST 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Wed Sep 14 18:00:00 WEST 2022",
+          "end": "Wed Sep 14 19:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Thu Dec 15 18:00:00 WET 2022",
+          "end": "Thu Dec 15 19:30:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Mar 21 21:00:00 WET 2023",
+          "end": "Tue Mar 21 22:30:00 WET 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Mon Feb 13 18:00:00 WET 2023",
+          "end": "Mon Feb 13 19:30:00 WET 2023",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Feb 06 11:00:00 WET 2023",
+          "end": "Mon Feb 06 12:30:00 WET 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Tue Nov 15 21:00:00 WET 2022",
+          "end": "Tue Nov 15 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Oct 19 21:00:00 WEST 2022",
+          "end": "Wed Oct 19 22:30:00 WEST 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon May 22 19:30:00 WEST 2023",
+          "end": "Mon May 22 21:00:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Tue Oct 25 18:00:00 WEST 2022",
+          "end": "Tue Oct 25 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Tue Dec 06 18:00:00 WET 2022",
+          "end": "Tue Dec 06 19:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Tue Sep 27 18:00:00 WEST 2022",
+          "end": "Tue Sep 27 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Tue Oct 25 18:00:00 WEST 2022",
+          "end": "Tue Oct 25 19:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Nov 30 19:30:00 WET 2022",
+          "end": "Wed Nov 30 21:00:00 WET 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Tue Oct 25 21:00:00 WEST 2022",
+          "end": "Tue Oct 25 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Wed Oct 19 18:00:00 WEST 2022",
+          "end": "Wed Oct 19 19:30:00 WEST 2022",
+          "location": "C7.06, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Wed Apr 26 21:00:00 WEST 2023",
+          "end": "Wed Apr 26 22:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Wed Apr 12 21:00:00 WEST 2023",
+          "end": "Wed Apr 12 22:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Mon Dec 05 19:30:00 WET 2022",
+          "end": "Mon Dec 05 21:00:00 WET 2022",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Mar 31 19:30:00 WEST 2023",
+          "end": "Fri Mar 31 21:00:00 WEST 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon May 08 21:00:00 WEST 2023",
+          "end": "Mon May 08 22:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Tue Oct 11 18:00:00 WEST 2022",
+          "end": "Tue Oct 11 19:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Fri Nov 18 18:00:00 WET 2022",
+          "end": "Fri Nov 18 19:30:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Fri May 05 21:00:00 WEST 2023",
+          "end": "Fri May 05 22:30:00 WEST 2023",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Apr 24 11:00:00 WEST 2023",
+          "end": "Mon Apr 24 12:30:00 WEST 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon May 29 09:30:00 WEST 2023",
+          "end": "Mon May 29 11:00:00 WEST 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Thu Oct 13 13:00:00 WEST 2022",
+          "end": "Thu Oct 13 14:30:00 WEST 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Mon Dec 12 19:30:00 WET 2022",
+          "end": "Mon Dec 12 21:00:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Fri Nov 04 13:00:00 WET 2022",
+          "end": "Fri Nov 04 14:30:00 WET 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Sep 19 21:00:00 WEST 2022",
+          "end": "Mon Sep 19 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Mon Mar 13 18:00:00 WET 2023",
+          "end": "Mon Mar 13 19:30:00 WET 2023",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Sep 16 19:30:00 WEST 2022",
+          "end": "Fri Sep 16 21:00:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Tue Oct 04 21:00:00 WEST 2022",
+          "end": "Tue Oct 04 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Mar 20 21:00:00 WET 2023",
+          "end": "Mon Mar 20 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Mon Sep 12 19:30:00 WEST 2022",
+          "end": "Mon Sep 12 21:00:00 WEST 2022",
+          "location": "Auditório 0NE03 - Mário Murteira, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Nov 14 21:00:00 WET 2022",
+          "end": "Mon Nov 14 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Tue Mar 07 18:00:00 WET 2023",
+          "end": "Tue Mar 07 19:30:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Mon Nov 21 19:30:00 WET 2022",
+          "end": "Mon Nov 21 21:00:00 WET 2022",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Wed Nov 30 18:00:00 WET 2022",
+          "end": "Wed Nov 30 19:30:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Mar 06 19:30:00 WET 2023",
+          "end": "Mon Mar 06 21:00:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Fri May 26 21:00:00 WEST 2023",
+          "end": "Fri May 26 22:30:00 WEST 2023",
+          "location": "Auditório 4, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Tue Feb 28 18:00:00 WET 2023",
+          "end": "Tue Feb 28 19:30:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Wed Mar 15 21:00:00 WET 2023",
+          "end": "Wed Mar 15 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Mon Nov 07 19:30:00 WET 2022",
+          "end": "Mon Nov 07 21:00:00 WET 2022",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Sep 30 21:00:00 WEST 2022",
+          "end": "Fri Sep 30 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Fri Mar 03 21:00:00 WET 2023",
+          "end": "Fri Mar 03 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Mar 20 09:30:00 WET 2023",
+          "end": "Mon Mar 20 11:00:00 WET 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Mar 10 19:30:00 WET 2023",
+          "end": "Fri Mar 10 21:00:00 WET 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Tue May 23 18:00:00 WEST 2023",
+          "end": "Tue May 23 19:30:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Sep 20 19:30:00 WEST 2022",
+          "end": "Tue Sep 20 21:00:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Feb 13 09:30:00 WET 2023",
+          "end": "Mon Feb 13 11:00:00 WET 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Fri Oct 14 13:00:00 WEST 2022",
+          "end": "Fri Oct 14 14:30:00 WEST 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Sep 23 19:30:00 WEST 2022",
+          "end": "Fri Sep 23 21:00:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Sep 27 19:30:00 WEST 2022",
+          "end": "Tue Sep 27 21:00:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Oct 18 19:30:00 WEST 2022",
+          "end": "Tue Oct 18 21:00:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Apr 26 18:00:00 WEST 2023",
+          "end": "Wed Apr 26 19:30:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Tue Sep 20 21:00:00 WEST 2022",
+          "end": "Tue Sep 20 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue May 09 21:00:00 WEST 2023",
+          "end": "Tue May 09 22:30:00 WEST 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Mar 07 21:00:00 WET 2023",
+          "end": "Tue Mar 07 22:30:00 WET 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Nov 18 19:30:00 WET 2022",
+          "end": "Fri Nov 18 21:00:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Tue Nov 15 18:00:00 WET 2022",
+          "end": "Tue Nov 15 19:30:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Mon Nov 07 18:00:00 WET 2022",
+          "end": "Mon Nov 07 19:30:00 WET 2022",
+          "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Tue Oct 04 18:00:00 WEST 2022",
+          "end": "Tue Oct 04 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Mar 27 11:00:00 WEST 2023",
+          "end": "Mon Mar 27 12:30:00 WEST 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Sep 21 21:00:00 WEST 2022",
+          "end": "Wed Sep 21 22:30:00 WEST 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Fri Sep 30 18:00:00 WEST 2022",
+          "end": "Fri Sep 30 19:30:00 WEST 2022",
+          "location": "D1.09, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Fri Oct 14 18:00:00 WEST 2022",
+          "end": "Fri Oct 14 19:30:00 WEST 2022",
+          "location": "D1.09, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Apr 17 21:00:00 WEST 2023",
+          "end": "Mon Apr 17 22:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Tue Mar 14 18:00:00 WET 2023",
+          "end": "Tue Mar 14 19:30:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Mar 28 21:00:00 WEST 2023",
+          "end": "Tue Mar 28 22:30:00 WEST 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Feb 24 18:00:00 WET 2023",
+          "end": "Fri Feb 24 19:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Wed Nov 16 18:00:00 WET 2022",
+          "end": "Wed Nov 16 19:30:00 WET 2022",
+          "location": "C7.06, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Wed Nov 30 18:00:00 WET 2022",
+          "end": "Wed Nov 30 19:30:00 WET 2022",
+          "location": "C7.06, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Fri Dec 09 18:00:00 WET 2022",
+          "end": "Fri Dec 09 19:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Mon Apr 24 18:00:00 WEST 2023",
+          "end": "Mon Apr 24 19:30:00 WEST 2023",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri May 05 18:00:00 WEST 2023",
+          "end": "Fri May 05 19:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Wed Oct 26 18:00:00 WEST 2022",
+          "end": "Wed Oct 26 19:30:00 WEST 2022",
+          "location": "C7.06, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Feb 28 19:30:00 WET 2023",
+          "end": "Tue Feb 28 21:00:00 WET 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Mar 03 19:30:00 WET 2023",
+          "end": "Fri Mar 03 21:00:00 WET 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Dec 02 19:30:00 WET 2022",
+          "end": "Fri Dec 02 21:00:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Dec 06 19:30:00 WET 2022",
+          "end": "Tue Dec 06 21:00:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Nov 25 19:30:00 WET 2022",
+          "end": "Fri Nov 25 21:00:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed May 17 18:00:00 WEST 2023",
+          "end": "Wed May 17 19:30:00 WEST 2023",
+          "location": "0S08, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Tue Nov 15 18:00:00 WET 2022",
+          "end": "Tue Nov 15 19:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Tue Nov 22 21:00:00 WET 2022",
+          "end": "Tue Nov 22 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Oct 28 19:30:00 WEST 2022",
+          "end": "Fri Oct 28 21:00:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Apr 17 09:30:00 WEST 2023",
+          "end": "Mon Apr 17 11:00:00 WEST 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Fri Apr 21 21:00:00 WEST 2023",
+          "end": "Fri Apr 21 22:30:00 WEST 2023",
+          "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Thu Sep 29 13:00:00 WEST 2022",
+          "end": "Thu Sep 29 14:30:00 WEST 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Sep 14 19:30:00 WEST 2022",
+          "end": "Wed Sep 14 21:00:00 WEST 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Mon Oct 17 19:30:00 WEST 2022",
+          "end": "Mon Oct 17 21:00:00 WEST 2022",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Apr 21 19:30:00 WEST 2023",
+          "end": "Fri Apr 21 21:00:00 WEST 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Wed Apr 19 21:00:00 WEST 2023",
+          "end": "Wed Apr 19 22:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Oct 11 19:30:00 WEST 2022",
+          "end": "Tue Oct 11 21:00:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Feb 27 11:00:00 WET 2023",
+          "end": "Mon Feb 27 12:30:00 WET 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Mar 24 18:00:00 WET 2023",
+          "end": "Fri Mar 24 19:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Apr 19 19:30:00 WEST 2023",
+          "end": "Wed Apr 19 21:00:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Tue Nov 29 18:00:00 WET 2022",
+          "end": "Tue Nov 29 19:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Mar 13 19:30:00 WET 2023",
+          "end": "Mon Mar 13 21:00:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Mon Mar 06 18:00:00 WET 2023",
+          "end": "Mon Mar 06 19:30:00 WET 2023",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Mon Oct 31 19:30:00 WET 2022",
+          "end": "Mon Oct 31 21:00:00 WET 2022",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Nov 09 19:30:00 WET 2022",
+          "end": "Wed Nov 09 21:00:00 WET 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Mon Dec 12 18:00:00 WET 2022",
+          "end": "Mon Dec 12 19:30:00 WET 2022",
+          "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Fri Oct 07 18:00:00 WEST 2022",
+          "end": "Fri Oct 07 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Mon Sep 26 18:00:00 WEST 2022",
+          "end": "Mon Sep 26 19:30:00 WEST 2022",
+          "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Thu Oct 27 18:00:00 WEST 2022",
+          "end": "Thu Oct 27 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Feb 08 18:00:00 WET 2023",
+          "end": "Wed Feb 08 19:30:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Oct 31 21:00:00 WET 2022",
+          "end": "Mon Oct 31 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Nov 25 21:00:00 WET 2022",
+          "end": "Fri Nov 25 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Thu Oct 06 19:30:00 WEST 2022",
+          "end": "Thu Oct 06 21:00:00 WEST 2022",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Mar 17 19:30:00 WET 2023",
+          "end": "Fri Mar 17 21:00:00 WET 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed May 03 18:00:00 WEST 2023",
+          "end": "Wed May 03 19:30:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Fri Nov 18 18:00:00 WET 2022",
+          "end": "Fri Nov 18 19:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Feb 15 18:00:00 WET 2023",
+          "end": "Wed Feb 15 19:30:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Tue Oct 18 18:00:00 WEST 2022",
+          "end": "Tue Oct 18 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Oct 12 21:00:00 WEST 2022",
+          "end": "Wed Oct 12 22:30:00 WEST 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Fri Nov 11 18:00:00 WET 2022",
+          "end": "Fri Nov 11 19:30:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Fri Mar 24 21:00:00 WET 2023",
+          "end": "Fri Mar 24 22:30:00 WET 2023",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Feb 28 21:00:00 WET 2023",
+          "end": "Tue Feb 28 22:30:00 WET 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon May 22 11:00:00 WEST 2023",
+          "end": "Mon May 22 12:30:00 WEST 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Feb 07 19:30:00 WET 2023",
+          "end": "Tue Feb 07 21:00:00 WET 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Nov 09 21:00:00 WET 2022",
+          "end": "Wed Nov 09 22:30:00 WET 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Oct 14 21:00:00 WEST 2022",
+          "end": "Fri Oct 14 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Apr 17 11:00:00 WEST 2023",
+          "end": "Mon Apr 17 12:30:00 WEST 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri May 05 19:30:00 WEST 2023",
+          "end": "Fri May 05 21:00:00 WEST 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Tue Feb 14 18:00:00 WET 2023",
+          "end": "Tue Feb 14 19:30:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Mar 27 19:30:00 WEST 2023",
+          "end": "Mon Mar 27 21:00:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Oct 14 19:30:00 WEST 2022",
+          "end": "Fri Oct 14 21:00:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Tue Feb 07 18:00:00 WET 2023",
+          "end": "Tue Feb 07 19:30:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Mon Sep 12 18:00:00 WEST 2022",
+          "end": "Mon Sep 12 19:30:00 WEST 2022",
+          "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue May 02 19:30:00 WEST 2023",
+          "end": "Tue May 02 21:00:00 WEST 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Mar 01 19:30:00 WET 2023",
+          "end": "Wed Mar 01 21:00:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Mar 17 18:00:00 WET 2023",
+          "end": "Fri Mar 17 19:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Apr 26 19:30:00 WEST 2023",
+          "end": "Wed Apr 26 21:00:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Tue Nov 29 21:00:00 WET 2022",
+          "end": "Tue Nov 29 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Feb 10 18:00:00 WET 2023",
+          "end": "Fri Feb 10 19:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Apr 11 21:00:00 WEST 2023",
+          "end": "Tue Apr 11 22:30:00 WEST 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Fri Oct 28 18:00:00 WEST 2022",
+          "end": "Fri Oct 28 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Fri Dec 02 18:00:00 WET 2022",
+          "end": "Fri Dec 02 19:30:00 WET 2022",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Thu Nov 17 18:00:00 WET 2022",
+          "end": "Thu Nov 17 19:30:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Fri Sep 30 18:00:00 WEST 2022",
+          "end": "Fri Sep 30 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Feb 27 09:30:00 WET 2023",
+          "end": "Mon Feb 27 11:00:00 WET 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Thu Nov 10 13:00:00 WET 2022",
+          "end": "Thu Nov 10 14:30:00 WET 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Fri Sep 23 18:00:00 WEST 2022",
+          "end": "Fri Sep 23 19:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Nov 07 21:00:00 WET 2022",
+          "end": "Mon Nov 07 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Wed Feb 08 21:00:00 WET 2023",
+          "end": "Wed Feb 08 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Fri Sep 23 13:00:00 WEST 2022",
+          "end": "Fri Sep 23 14:30:00 WEST 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed May 10 19:30:00 WEST 2023",
+          "end": "Wed May 10 21:00:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Apr 18 21:00:00 WEST 2023",
+          "end": "Tue Apr 18 22:30:00 WEST 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Fri Oct 14 18:00:00 WEST 2022",
+          "end": "Fri Oct 14 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Tue May 16 18:00:00 WEST 2023",
+          "end": "Tue May 16 19:30:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Apr 17 19:30:00 WEST 2023",
+          "end": "Mon Apr 17 21:00:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Mon Feb 06 18:00:00 WET 2023",
+          "end": "Mon Feb 06 19:30:00 WET 2023",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Nov 04 21:00:00 WET 2022",
+          "end": "Fri Nov 04 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Feb 24 19:30:00 WET 2023",
+          "end": "Fri Feb 24 21:00:00 WET 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Feb 08 19:30:00 WET 2023",
+          "end": "Wed Feb 08 21:00:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Oct 21 19:30:00 WEST 2022",
+          "end": "Fri Oct 21 21:00:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Fri Oct 21 13:00:00 WEST 2022",
+          "end": "Fri Oct 21 14:30:00 WEST 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Thu Sep 22 18:00:00 WEST 2022",
+          "end": "Thu Sep 22 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon Feb 06 09:30:00 WET 2023",
+          "end": "Mon Feb 06 11:00:00 WET 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Feb 14 21:00:00 WET 2023",
+          "end": "Tue Feb 14 22:30:00 WET 2023",
+          "location": "0S02, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Thu Sep 29 18:00:00 WEST 2022",
+          "end": "Thu Sep 29 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Thu Oct 27 13:00:00 WEST 2022",
+          "end": "Thu Oct 27 14:30:00 WEST 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Apr 28 19:30:00 WEST 2023",
+          "end": "Fri Apr 28 21:00:00 WEST 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Tue Nov 08 18:00:00 WET 2022",
+          "end": "Tue Nov 08 19:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Mar 28 19:30:00 WEST 2023",
+          "end": "Tue Mar 28 21:00:00 WEST 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Nov 18 21:00:00 WET 2022",
+          "end": "Fri Nov 18 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Tue May 02 18:00:00 WEST 2023",
+          "end": "Tue May 02 19:30:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Wed Nov 09 18:00:00 WET 2022",
+          "end": "Wed Nov 09 19:30:00 WET 2022",
+          "location": "C7.06, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Fri Sep 30 13:00:00 WEST 2022",
+          "end": "Fri Sep 30 14:30:00 WEST 2022",
+          "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Mon Oct 24 19:30:00 WEST 2022",
+          "end": "Mon Oct 24 21:00:00 WEST 2022",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Tue May 09 18:00:00 WEST 2023",
+          "end": "Tue May 09 19:30:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Apr 19 18:00:00 WEST 2023",
+          "end": "Wed Apr 19 19:30:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Oct 26 21:00:00 WEST 2022",
+          "end": "Wed Oct 26 22:30:00 WEST 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Mar 06 21:00:00 WET 2023",
+          "end": "Mon Mar 06 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue May 02 21:00:00 WEST 2023",
+          "end": "Tue May 02 22:30:00 WEST 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Fri Nov 25 18:00:00 WET 2022",
+          "end": "Fri Nov 25 19:30:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed May 03 19:30:00 WEST 2023",
+          "end": "Wed May 03 21:00:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Mon Oct 17 18:00:00 WEST 2022",
+          "end": "Mon Oct 17 19:30:00 WEST 2022",
+          "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Mon Oct 10 19:30:00 WEST 2022",
+          "end": "Mon Oct 10 21:00:00 WEST 2022",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Wed Sep 21 18:00:00 WEST 2022",
+          "end": "Wed Sep 21 19:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Sep 16 21:00:00 WEST 2022",
+          "end": "Fri Sep 16 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Wed May 03 21:00:00 WEST 2023",
+          "end": "Wed May 03 22:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Nov 16 21:00:00 WET 2022",
+          "end": "Wed Nov 16 22:30:00 WET 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Dec 05 21:00:00 WET 2022",
+          "end": "Mon Dec 05 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Mar 21 19:30:00 WET 2023",
+          "end": "Tue Mar 21 21:00:00 WET 2023",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Nov 11 21:00:00 WET 2022",
+          "end": "Fri Nov 11 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Nov 29 19:30:00 WET 2022",
+          "end": "Tue Nov 29 21:00:00 WET 2022",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Apr 28 18:00:00 WEST 2023",
+          "end": "Fri Apr 28 19:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Fri Dec 09 18:00:00 WET 2022",
+          "end": "Fri Dec 09 19:30:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Tue Sep 13 21:00:00 WEST 2022",
+          "end": "Tue Sep 13 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Mar 29 19:30:00 WEST 2023",
+          "end": "Wed Mar 29 21:00:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Fri Nov 25 18:00:00 WET 2022",
+          "end": "Fri Nov 25 19:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Apr 21 18:00:00 WEST 2023",
+          "end": "Fri Apr 21 19:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Tue Nov 08 18:00:00 WET 2022",
+          "end": "Tue Nov 08 19:30:00 WET 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Nov 28 21:00:00 WET 2022",
+          "end": "Mon Nov 28 22:30:00 WET 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Dec 12 21:00:00 WET 2022",
+          "end": "Mon Dec 12 22:30:00 WET 2022",
+          "location": "C5.09, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Wed Mar 08 21:00:00 WET 2023",
+          "end": "Wed Mar 08 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Thu Nov 17 13:00:00 WET 2022",
+          "end": "Thu Nov 17 14:30:00 WET 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Fri May 19 21:00:00 WEST 2023",
+          "end": "Fri May 19 22:30:00 WEST 2023",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Sep 12 21:00:00 WEST 2022",
+          "end": "Mon Sep 12 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Tue Apr 18 18:00:00 WEST 2023",
+          "end": "Tue Apr 18 19:30:00 WEST 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon May 15 19:30:00 WEST 2023",
+          "end": "Mon May 15 21:00:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Fri Mar 31 21:00:00 WEST 2023",
+          "end": "Fri Mar 31 22:30:00 WEST 2023",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Mon Sep 19 19:30:00 WEST 2022",
+          "end": "Mon Sep 19 21:00:00 WEST 2022",
+          "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Thu Sep 15 18:00:00 WEST 2022",
+          "end": "Thu Sep 15 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Oct 24 21:00:00 WEST 2022",
+          "end": "Mon Oct 24 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Thu Apr 20 18:00:00 WEST 2023",
+          "end": "Thu Apr 20 19:30:00 WEST 2023",
+          "location": "C5.07, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Tue Oct 11 18:00:00 WEST 2022",
+          "end": "Tue Oct 11 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Thu Oct 06 18:00:00 WEST 2022",
+          "end": "Thu Oct 06 19:30:00 WEST 2022",
+          "location": "C5.06, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Nov 22 19:30:00 WET 2022",
+          "end": "Tue Nov 22 21:00:00 WET 2022",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Linguagens de Programação - Programming Language Engineering",
+          "start": "Mon May 22 09:30:00 WEST 2023",
+          "end": "Mon May 22 11:00:00 WEST 2023",
+          "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Fri Mar 17 21:00:00 WET 2023",
+          "end": "Fri Mar 17 22:30:00 WET 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Fri Mar 31 18:00:00 WEST 2023",
+          "end": "Fri Mar 31 19:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Fri Sep 23 21:00:00 WEST 2022",
+          "end": "Fri Sep 23 22:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Processamento de Informação - Information Processing",
+          "start": "Tue Sep 20 18:00:00 WEST 2022",
+          "end": "Tue Sep 20 19:30:00 WEST 2022",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Mon Nov 21 18:00:00 WET 2022",
+          "end": "Mon Nov 21 19:30:00 WET 2022",
+          "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Apr 24 21:00:00 WEST 2023",
+          "end": "Mon Apr 24 22:30:00 WEST 2023",
+          "location": "C5.08, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Wed Sep 28 21:00:00 WEST 2022",
+          "end": "Wed Sep 28 22:30:00 WEST 2022",
+          "location": "0S01, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Mar 08 18:00:00 WET 2023",
+          "end": "Wed Mar 08 19:30:00 WET 2023",
+          "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Mon Nov 28 18:00:00 WET 2022",
+          "end": "Mon Nov 28 19:30:00 WET 2022",
+          "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Exame: Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Mon Jun 26 15:00:00 WEST 2023",
+          "end": "Mon Jun 26 18:00:00 WEST 2023",
+          "location": "Auditório B1.03"
+     },
+     {
+          "summary": "Exame: Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Thu Jun 01 11:30:00 WEST 2023",
+          "end": "Thu Jun 01 14:30:00 WEST 2023",
+          "location": "Auditório 4"
+     },
+     {
+          "summary": "Exame: Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Fri Jul 14 08:00:00 WEST 2023",
+          "end": "Fri Jul 14 11:00:00 WEST 2023",
+          "location": "AA3.23"
+     },
+     {
+          "summary": "Exame: Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Fri Jul 14 11:30:00 WEST 2023",
+          "end": "Fri Jul 14 14:30:00 WEST 2023",
+          "location": ""
+     },
+     {
+          "summary": "Exame: Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Wed Jan 25 08:00:00 WET 2023",
+          "end": "Wed Jan 25 11:00:00 WET 2023",
+          "location": "Auditório B1.03"
+     },
+     {
+          "summary": "Exame: Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Wed Jan 11 18:30:00 WET 2023",
+          "end": "Wed Jan 11 21:30:00 WET 2023",
+          "location": "Auditório 2, Auditório B2.04"
+     },
+     {
+          "summary": "Teste: Probabilidades e Processos Estocásticos - Probabilities and stochastic processes",
+          "start": "Fri Nov 04 18:00:00 WET 2022",
+          "end": "Fri Nov 04 21:00:00 WET 2022",
+          "location": "Auditório B1.03, Auditório B1.04"
+     },
+     {
+          "summary": "Avaliação Contínua: Arquitetura de Redes - Network Arquitectures",
+          "start": "Sat Oct 29 10:00:00 WEST 2022",
+          "end": "Sat Oct 29 11:30:00 WEST 2022",
+          "location": "Auditório 1NE03 - JJ Laginha, Auditório B2.04, Auditório B1.04, Auditório B1.03"
+     },
+     {
+          "summary": "Exame: Arquitetura de Redes - Network Arquitectures",
+          "start": "Tue Jul 11 08:00:00 WEST 2023",
+          "end": "Tue Jul 11 11:00:00 WEST 2023",
+          "location": ""
+     },
+     {
+          "summary": "Exame: Arquitetura de Redes - Network Arquitectures",
+          "start": "Wed Jan 04 18:30:00 WET 2023",
+          "end": "Wed Jan 04 21:30:00 WET 2023",
+          "location": "Auditório B1.03, C4.06, Auditório C1.03, C6.01, Auditório B1.04, Auditório 4"
+     },
+     {
+          "summary": "Exame: Arquitetura de Redes - Network Arquitectures",
+          "start": "Mon Jan 23 15:00:00 WET 2023",
+          "end": "Mon Jan 23 18:00:00 WET 2023",
+          "location": "Auditório B1.04, Auditório B1.03"
+     },
+     {
+          "summary": "Teste: Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Thu Nov 24 18:00:00 WET 2022",
+          "end": "Thu Nov 24 20:00:00 WET 2022",
+          "location": "1E10"
+     },
+     {
+          "summary": "Teste: Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Fri Nov 25 13:00:00 WET 2022",
+          "end": "Fri Nov 25 15:00:00 WET 2022",
+          "location": "2E07"
+     },
+     {
+          "summary": "Teste: Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Wed Nov 30 18:00:00 WET 2022",
+          "end": "Wed Nov 30 19:30:00 WET 2022",
+          "location": "Auditório B1.04"
+     },
+     {
+          "summary": "Teste: Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Thu Nov 24 13:00:00 WET 2022",
+          "end": "Thu Nov 24 15:00:00 WET 2022",
+          "location": "2E07"
+     },
+     {
+          "summary": "Teste: Introdução à Ciência de Dados - Introduction to Data Science",
+          "start": "Wed Nov 23 18:00:00 WET 2022",
+          "end": "Wed Nov 23 20:00:00 WET 2022",
+          "location": "2E05"
+     },
+     {
+          "summary": "Exame: Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Wed Jun 14 15:00:00 WEST 2023",
+          "end": "Wed Jun 14 18:00:00 WEST 2023",
+          "location": "Auditório C1.03, Auditório B1.04, Auditório B1.03"
+     },
+     {
+          "summary": "Exame: Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Fri Jun 30 11:30:00 WEST 2023",
+          "end": "Fri Jun 30 14:30:00 WEST 2023",
+          "location": "Auditório B1.03"
+     },
+     {
+          "summary": "Exame: Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
+          "start": "Fri Jul 14 18:30:00 WEST 2023",
+          "end": "Fri Jul 14 21:30:00 WEST 2023",
+          "location": "AA3.23"
+     },
+     {
+          "summary": "Exame: Engenharia de Software - Software Engineering",
+          "start": "Mon Jun 12 15:00:00 WEST 2023",
+          "end": "Mon Jun 12 18:00:00 WEST 2023",
+          "location": "Auditório 1NE03 - JJ Laginha, Auditório 4"
+     },
+     {
+          "summary": "Exame: Engenharia de Software - Software Engineering",
+          "start": "Tue Jun 27 15:00:00 WEST 2023",
+          "end": "Tue Jun 27 18:00:00 WEST 2023",
+          "location": "Auditório B1.03"
+     },
+     {
+          "summary": "Exame: Engenharia de Software - Software Engineering",
+          "start": "Wed Jul 12 08:00:00 WEST 2023",
+          "end": "Wed Jul 12 11:00:00 WEST 2023",
+          "location": "AA3.23"
+     },
+     {
+          "summary": "Exame: Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Jul 13 08:00:00 WEST 2023",
+          "end": "Thu Jul 13 11:00:00 WEST 2023",
+          "location": "AA3.28"
+     },
+     {
+          "summary": "Exame: Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Jun 29 15:00:00 WEST 2023",
+          "end": "Thu Jun 29 18:00:00 WEST 2023",
+          "location": "Auditório B1.04"
+     },
+     {
+          "summary": "Exame: Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Tue Jun 06 11:30:00 WEST 2023",
+          "end": "Tue Jun 06 14:30:00 WEST 2023",
+          "location": "B2.01, Auditório B1.03, Auditório B1.04"
+     },
+     {
+          "summary": "Exame: Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Mon Jan 16 11:30:00 WET 2023",
+          "end": "Mon Jan 16 14:30:00 WET 2023",
+          "location": "Auditório B2.04, Auditório B1.04, Auditório B1.03"
+     },
+     {
+          "summary": "Exame: Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Sat Jan 28 15:00:00 WET 2023",
+          "end": "Sat Jan 28 18:00:00 WET 2023",
+          "location": "Auditório 4"
+     },
+     {
+          "summary": "Exame: Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
+          "start": "Mon Jul 10 08:00:00 WEST 2023",
+          "end": "Mon Jul 10 11:00:00 WEST 2023",
+          "location": ""
+     },
+     {
+          "summary": "Teste: Agentes Autónomos - Autonomous Agents",
+          "start": "Sat Nov 05 09:30:00 WET 2022",
+          "end": "Sat Nov 05 12:30:00 WET 2022",
+          "location": "2E02, Auditório 4"
+     },
+     {
+          "summary": "Teste: Agentes Autónomos - Autonomous Agents",
+          "start": "Sat Dec 10 09:30:00 WET 2022",
+          "end": "Sat Dec 10 12:30:00 WET 2022",
+          "location": "Auditório 4"
+     },
+     {
+          "summary": "Exame: Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Jul 11 15:00:00 WEST 2023",
+          "end": "Tue Jul 11 18:00:00 WEST 2023",
+          "location": ""
+     },
+     {
+          "summary": "Exame: Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Jan 24 15:00:00 WET 2023",
+          "end": "Tue Jan 24 18:00:00 WET 2023",
+          "location": "Auditório 1NE03 - JJ Laginha"
+     },
+     {
+          "summary": "Exame: Agentes Autónomos - Autonomous Agents",
+          "start": "Mon Jan 09 15:00:00 WET 2023",
+          "end": "Mon Jan 09 18:00:00 WET 2023",
+          "location": "Auditório 1NE03 - JJ Laginha"
+     },
+     {
+          "summary": "Exame: Processamento de Informação - Information Processing",
+          "start": "Thu Jan 26 15:00:00 WET 2023",
+          "end": "Thu Jan 26 18:00:00 WET 2023",
+          "location": "Auditório B2.04"
+     },
+     {
+          "summary": "Exame: Processamento de Informação - Information Processing",
+          "start": "Thu Jan 12 18:30:00 WET 2023",
+          "end": "Thu Jan 12 21:30:00 WET 2023",
+          "location": "2E02, Auditório 4"
+     },
+     {
+          "summary": "Exame: Processamento de Informação - Information Processing",
+          "start": "Thu Jul 13 15:00:00 WEST 2023",
+          "end": "Thu Jul 13 18:00:00 WEST 2023",
+          "location": ""
+     },
+     {
+          "summary": "Alunos",
+          "start": "Wed Dec 07 09:00:00 WET 2022",
+          "end": "Wed Dec 07 19:30:00 WET 2022",
+          "location": "D1.04"
+     },
+     {
+          "summary": "Alunos",
+          "start": "Fri Nov 04 08:00:00 WET 2022",
+          "end": "Fri Nov 04 12:30:00 WET 2022",
+          "location": "D1.12"
+     },
+     {
+          "summary": "alunos",
+          "start": "Fri Nov 04 12:30:00 WET 2022",
+          "end": "Fri Nov 04 22:30:00 WET 2022",
+          "location": "D1.14"
+     },
+     {
+          "summary": "Alunos",
+          "start": "Thu Dec 15 09:00:00 WET 2022",
+          "end": "Thu Dec 15 22:30:00 WET 2022",
+          "location": "D1.02"
+     },
+     {
+          "summary": "Alunos",
+          "start": "Thu Nov 10 16:00:00 WET 2022",
+          "end": "Thu Nov 10 22:30:00 WET 2022",
+          "location": "D1.03"
+     },
+     {
+          "summary": "alunos",
+          "start": "Thu Nov 03 09:00:00 WET 2022",
+          "end": "Thu Nov 03 18:00:00 WET 2022",
+          "location": "D1.12"
+     },
+     {
+          "summary": "alunos",
+          "start": "Wed Nov 02 12:30:00 WET 2022",
+          "end": "Wed Nov 02 22:30:00 WET 2022",
+          "location": "D1.12"
+     },
+     {
+          "summary": "Alunos",
+          "start": "Fri Oct 28 15:00:00 WEST 2022",
+          "end": "Fri Oct 28 22:30:00 WEST 2022",
+          "location": "D1.02"
+     }
+]}
