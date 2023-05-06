@@ -15,120 +15,141 @@
 <div id="calendar"></div>
 <script>
 
-        function criarBloco(curso, title, turno, prof, nInscricoes, diaSemana, horaInicio, horaFim, data, sala, lotacao) {
-        var start = data + 'T' + horaInicio + ':00';
-        var end = data + 'T' + horaFim + ':00';
+      //   function criarBloco(curso, title, turno, prof, nInscricoes, diaSemana, horaInicio, horaFim, data, sala, lotacao) {
+      //   var start = data + 'T' + horaInicio + ':00';
+      //   var end = data + 'T' + horaFim + ':00';
+      //
+      //   return {
+      //     curso: curso,
+      //     title: title,
+      //     turno: turno,
+      //     prof: prof,
+      //     nInscricoes: nInscricoes,
+      //     diaSemana: diaSemana,
+      //     start: start,
+      //     end: end,
+      //     sala: sala,
+      //     lotacao: lotacao
+      // }
+      const fs = require('fs');
 
-        return {
-          curso: curso,
-          title: title,
-          turno: turno,
-          prof: prof,
-          nInscricoes: nInscricoes,
-          diaSemana: diaSemana,
-          start: start,
-          end: end,
-          sala: sala,
-          lotacao: lotacao
-        };
+      function handleCSVFile(filePath, callback) {
+          fs.readFile(filePath, 'utf8', (err, csvData) => {
+              if (err) {
+                  console.error(err);
+                  return;
+              }
+
+              // Parse CSV data
+              var lines = csvData.split('\n');
+              var blocos = [];
+              for (var i = 0; i < lines.length; i++) {
+                  var cells = lines[i].split(',');
+
+                  // Extract values from CSV cells
+                  var curso = cells[0];
+                  var title = cells[1];
+                  var turno = cells[2];
+                  var prof = cells[3];
+                  var nInscricoes = cells[4];
+                  var diaSemana = cells[5];
+                  var horaInicio = cells[6];
+                  var horaFim = cells[7];
+                  var data = cells[8];
+                  var sala = cells[9];
+                  var lotacao = cells[10];
+
+                  // Call criarBloco function with extracted values
+                  var bloco = criarBloco(curso, title, turno, prof, nInscricoes, diaSemana, horaInicio, horaFim, data, sala, lotacao);
+                  blocos.push(bloco);
+              }
+
+              // Invoke the callback function with the extracted blocos data
+              callback(blocos);
+          });
       }
 
-        var blocos = [
-            criarBloco('MEC', 'Disciplina A', 'manha', 'Luis', '5', 'quarta', '08:30', '09:00', '2023-05-01', 'D104', '10'),
-            criarBloco('LEI', 'Disciplina B', 'tarde', 'Maria', '3', 'terça', '10:30', '11:00', '2023-05-02', 'D105', '12'),
-            criarBloco('MAT', 'Disciplina C', 'noite', 'João', '4', 'quinta', '19:00', '19:30', '2023-05-03', 'D106', '14'),
-            criarBloco('MEC', 'Disciplina D', 'manha', 'Ana', '2', 'segunda', '09:00', '09:30', '2023-05-04', 'D107', '15'),
-            criarBloco('LP', 'Disciplina E', 'tarde', 'Carlos', '1', 'sexta', '14:30', '15:00', '2023-05-05', 'D108', '11'),
-            criarBloco('LEI', 'Disciplina A', 'manha', 'Luis', '5', 'quarta', '08:30', '09:00', '2023-05-01', 'D104', '10'),
-            criarBloco('LC', 'Disciplina B', 'tarde', 'Maria', '3', 'segunda', '13:30', '14:00', '2023-05-02', 'D105', '12'),
-            criarBloco('LP', 'Disciplina C', 'noite', 'João', '4', 'terça', '18:00', '18:30', '2023-05-03', 'D106', '14'),
-            criarBloco('MEC', 'Disciplina D', 'manha', 'Ana', '2', 'quinta', '10:00', '10:30', '2023-05-04', 'D107', '15'),
-            criarBloco('LEI', 'Disciplina E', 'tarde', 'Carlos', '1', 'sexta', '14:30', '15:00', '2023-05-05', 'D108', '11'),
-            criarBloco('LP', 'Disciplina F', 'manha', 'Pedro', '6', 'quarta', '11:00', '11:30', '2023-05-06', 'D109', '10'),
-            criarBloco('MAT', 'Disciplina G', 'noite', 'Julia', '4', 'quinta', '20:00', '20:30', '2023-05-07', 'D110', '12'),
-            criarBloco('LEI', 'Disciplina H', 'tarde', 'Mariana', '3', 'sexta', '15:00', '15:30', '2023-05-08', 'D111', '13'),
-            ];
+      var filePath = 'C:\\Users\\guiva\\OneDrive\\Documents\\ISCTE\\Terceiro ano ISCTE\\ES\\magaMaven\\src\\main\\java\\horario-exemplo-1.csv';
+      handleCSVFile(filePath, function(blocos) {
+          var cursos = {};
 
+          for (var i = 0; i < blocos.length; i++) {
+              var curso = blocos[i].curso;
+              cursos[curso] = true;
+          }
 
-        var cursos = {};
+          var cursosUnique = Object.keys(cursos);
 
-        for (var i = 0; i < blocos.length; i++) {
-          var curso = blocos[i].curso;
-          cursos[curso] = true;
-        }
+          var dropdownCursos = document.getElementById("dropdownCursos");
 
-        var cursosUnique = Object.keys(cursos);
+          for (var i = 0; i < cursosUnique.length; i++) {
+              var option = document.createElement("option");
+              option.text = cursosUnique[i];
+              dropdownCursos.add(option);
+          }
 
-      var dropdownCursos = document.getElementById("dropdownCursos");
+          var cursoSelecionado = ""; // Definir variável para armazenar a opção selecionada
 
-      for (var i = 0; i < cursosUnique.length; i++) {
-        var option = document.createElement("option");
-        option.text = cursosUnique[i-1];
-        dropdownCursos.add(option);
-      }
+          dropdownCursos.addEventListener("change", function() {
+              cursoSelecionado = dropdownCursos.value;
 
-      var cursoSelecionado = ""; // Definir variável para armazenar a opção selecionada
+              var blocoSelecionado = blocos.filter(function(bloco) {
+                  return bloco.curso === cursoSelecionado;
+              });
 
-      dropdownCursos.addEventListener("change", function() {
-        cursoSelecionado = dropdownCursos.value;
+              dropdownCursos.classList.add("hide");
 
-        var blocoSelecionado = blocos.filter(function(bloco) {
-        return bloco.curso === cursoSelecionado;
-      });
-
-
-      dropdownCursos.classList.add("hide");
-
-
-    // Inicializar o FullCalendar
+              // Inicializar o FullCalendar
     $('#calendar').fullCalendar({
-      header: {
-        left: 'prev,next today',
-        center: 'title',
-        right: 'month,agendaWeek,agendaDay'
-      },
-      height: 'auto', // Ajustar automaticamente a altura ao número de eventos
-      contentHeight: 'auto', // Ajustar a altura do conteúdo do calendário para que caiba todos os eventos
-      defaultView: 'agendaWeek',
-      minTime: '08:00:00', // Hora de início do horário
-      maxTime: '20:30:00', // Hora de término do horário
-      slotDuration: '00:30:00', // Duração de cada slot de tempo (30 minutos)
-      slotLabelFormat: 'h:mm A', // Formato do rótulo de tempo
-      allDaySlot: false, // Não mostrar o slot de tempo para o dia inteiro
-      events: blocoSelecionado, // Passar a lista de "blocos" como eventos do FullCalendar
+        header: {
+            left: 'prev,next today',
+            center: 'title',
+            right: 'month,agendaWeek,agendaDay'
+        },
+        height: 'auto', // Ajustar automaticamente a altura ao número de eventos
+        contentHeight: 'auto', // Ajustar a altura do conteúdo do calendário para que caiba todos os eventos
+        defaultView: 'agendaWeek',
+        minTime: '08:00:00', // Hora de início do horário
+        maxTime: '20:30:00', // Hora de término do horário
+        slotDuration: '00:30:00', // Duração de cada slot de tempo (30 minutos)
+        slotLabelFormat: 'h:mm A', // Formato do rótulo de tempo
+        allDaySlot: false, // Não mostrar o slot de tempo para o dia inteiro
+        events: blocoSelecionado, // Passar a lista de "blocos" como eventos do FullCalendar
 
-      eventRender: function(event, element) {
-        // Montar o título do evento com o nome da disciplina e a sala
-        var title = event.title + ' - Sala ' + event.sala;
-        // Adicionar um botão para ver mais detalhes
-        var detailsButton = $('<button>').addClass('btn btn-sm btn-info').text('Ver detalhes');
-        element.find('.fc-title').append(detailsButton);
-        // Definir o título no elemento do evento
-        element.find('.fc-title').text(title);
-      },
-      eventClick: function(event) {
+        eventRender: function (event, element) {
+            // Montar o título do evento com o nome da disciplina e a sala
+            var title = event.title + ' - Sala ' + event.sala;
+            // Adicionar um botão para ver mais detalhes
+            var detailsButton = $('<button>').addClass('btn btn-sm btn-info').text('Ver detalhes');
+            element.find('.fc-title').append(detailsButton);
+            // Definir o título no elemento do evento
+            element.find('.fc-title').text(title);
+        },
+        eventClick: function (event) {
 
-        if ($('#event-details-modal').length > 0) {
-        $('#event-details-modal').remove();
-      }
+            if ($('#event-details-modal').length > 0) {
+                $('#event-details-modal').remove();
+            }
 
-        // Criar o modal com as informações do evento
-        var modal = $('<div>').addClass('modal fade').attr('id', 'event-details-modal');
-        var modalDialog = $('<div>').addClass('modal-dialog');
-        var modalContent = $('<div>').addClass('modal-content');
-        var modalHeader = $('<div>').addClass('modal-header').html('<h5 class="modal-title">' + event.title);
-        var modalBody = $('<div>').addClass('modal-body').html('Professor: ' + event.prof + '<br>Número de inscrições: ' + event.nInscricoes + '<br>Tamanho da sala: ' + event.lotacao + '<br>Curso: ' + event.curso);
-        modalContent.append(modalHeader, modalBody);
-        modalDialog.append(modalContent);
-        modal.append(modalDialog);
+            // Criar o modal com as informações do evento
+            var modal = $('<div>').addClass('modal fade').attr('id', 'event-details-modal');
+            var modalDialog = $('<div>').addClass('modal-dialog');
+            var modalContent = $('<div>').addClass('modal-content');
+            var modalHeader = $('<div>').addClass('modal-header').html('<h5 class="modal-title">' + event.title);
+            var modalBody = $('<div>').addClass('modal-body').html('Professor: ' + event.prof + '<br>Número de inscrições: ' + event.nInscricoes + '<br>Tamanho da sala: ' + event.lotacao + '<br>Curso: ' + event.curso);
+            modalContent.append(modalHeader, modalBody);
+            modalDialog.append(modalContent);
+            modal.append(modalDialog);
 
-        // Adicionar o modal ao corpo da página e exibi-lo
-        $('body').append(modal);
-        modal.modal('show');
-      }
+            // Adicionar o modal ao corpo da página e exibi-lo
+            $('body').append(modal);
+            modal.modal('show');
+        }
+    });
     });
 
     });
+
   </script>
 </body>
 </html>
