@@ -1,12 +1,13 @@
 
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 
 public class AulaVerification {
 
     public static void main(String[] args) {
-        String arquivo = "horario-exemplo.csv"; // nome do arquivo CSV
+        String arquivo = "src/main/java/horario-exemplo.csv"; // nome do arquivo CSV
 
         List<Aula> aulas = Aula.lerAulasDoArquivo(arquivo); // ler as aulas do arquivo CSV
 
@@ -30,20 +31,22 @@ public class AulaVerification {
         // percorrer todas as aulas da lista
         for (int i = 0; i < aulas.size(); i++) {
             Aula aula1 = aulas.get(i);
-            LocalDateTime inicioAula1 = aula1.getInicio();
-            LocalDateTime fimAula1 = aula1.getFim();
+            LocalTime inicioAula1 = aula1.getInicio();
+            LocalTime fimAula1 = aula1.getFim();
 
             // percorrer todas as aulas seguintes à aula atual
             for (int j = i + 1; j < aulas.size(); j++) {
                 Aula aula2 = aulas.get(j);
-                LocalDateTime inicioAula2 = aula2.getInicio();
-                LocalDateTime fimAula2 = aula2.getFim();
+                LocalTime inicioAula2 = aula2.getInicio();
+                LocalTime fimAula2 = aula2.getFim();
 
-                // verificar se as aulas estão sobrepostas
-                if ((inicioAula1.isBefore(inicioAula2) && fimAula1.isAfter(inicioAula2)) ||
-                        (inicioAula2.isBefore(inicioAula1) && fimAula2.isAfter(inicioAula1))) {
-                    aulasSobrepostas.add(aula1);
-                    aulasSobrepostas.add(aula2);
+                // verificar se as aulas estão sobrepostas no mesmo dia
+                if (aula1.getDia() == aula2.getDia()) {
+                    if ((inicioAula1.isBefore(inicioAula2) && fimAula1.isAfter(inicioAula2)) ||
+                            (inicioAula2.isBefore(inicioAula1) && fimAula2.isAfter(inicioAula1))) {
+                        aulasSobrepostas.add(aula1);
+                        aulasSobrepostas.add(aula2);
+                    }
                 }
             }
         }
@@ -56,4 +59,5 @@ public class AulaVerification {
             }
         }
     }
+
 }
