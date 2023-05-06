@@ -141,49 +141,6 @@ public class Aula {
                 '}';
     }
 
-    public static List<Aula> lerAulasDoArquivo(String nomeArquivo) {
-        List<Aula> aulas = new ArrayList<>();
-        Map<String, DayOfWeek> diaMap = criarMapaDiasSemana();
-
-        try (BufferedReader br = new BufferedReader(new FileReader(nomeArquivo))) {
-            // Skip the header line
-            br.readLine();
-
-            String linha = br.readLine();
-            while (linha != null) {
-                String[] campos = linha.split(";");
-                String curso = campos[0];
-                String uc = campos[1];
-                String turno = campos[2];
-                String turma = campos[3];
-                int inscritos = Integer.parseInt(campos[4]);
-                DayOfWeek dia = diaMap.get(campos[5].substring(0, 3).toUpperCase()); // Use the abbreviation
-                LocalTime inicio = LocalTime.parse(campos[6], DateTimeFormatter.ofPattern("HH:mm:ss"));
-                LocalTime fim = LocalTime.parse(campos[7], DateTimeFormatter.ofPattern("HH:mm:ss"));
-                LocalDate data = LocalDate.parse(campos[8], DateTimeFormatter.ofPattern("dd/MM/yyyy"));
-                String sala = campos[9];
-                int lotacao = Integer.parseInt(campos[10]);
-                Aula aula = new Aula(curso, uc, turno, turma, inscritos, dia, inicio, fim, data, sala, lotacao);
-                aulas.add(aula);
-                linha = br.readLine();
-            }
-        } catch (IOException e) {
-            System.out.println("Erro ao ler arquivo: " + e.getMessage());
-        }
-        return aulas;
-    }
-
-    public static Map<String, DayOfWeek> criarMapaDiasSemana() {
-        Map<String, DayOfWeek> diaMap = new HashMap<>();
-        diaMap.put("SEG", DayOfWeek.MONDAY);
-        diaMap.put("TER", DayOfWeek.TUESDAY);
-        diaMap.put("QUA", DayOfWeek.WEDNESDAY);
-        diaMap.put("QUI", DayOfWeek.THURSDAY);
-        diaMap.put("SEX", DayOfWeek.FRIDAY);
-        diaMap.put("SAB", DayOfWeek.SATURDAY);
-        diaMap.put("DOM", DayOfWeek.SUNDAY);
-        return diaMap;
-    }
 
 
 }

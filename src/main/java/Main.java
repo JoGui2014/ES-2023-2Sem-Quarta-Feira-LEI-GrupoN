@@ -1,16 +1,10 @@
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
-public class CreateWithUC {
-    private List<String> ucs;
-
-    public CreateWithUC() {
-        System.out.println("ola");
-        this.ucs = new ArrayList<>();
-    }
+public class Main {
 
     public void adicionarUC(String uc) {
         this.ucs.add(uc);
@@ -20,15 +14,10 @@ public class CreateWithUC {
         this.ucs.remove(uc);
     }
 
-    public void imprimirHorario() {
-        for (String uc : this.ucs) {
-            System.out.println(uc);
-        }
-    }
-
     public void gravarHorarioCSV(String nomeFicheiro) {
         try {
-            FileWriter writer = new FileWriter(nomeFicheiro);
+            File file = new File(nomeFicheiro);
+            FileWriter writer = new FileWriter(file);
 
             for (String uc : this.ucs) {
                 writer.append(uc);
@@ -37,14 +26,19 @@ public class CreateWithUC {
 
             writer.flush();
             writer.close();
+
+            String directory = file.getAbsolutePath();
+            System.out.println("File saved in directory: " + directory);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
+
     public void gravarHorarioJSON(String nomeFicheiro) {
         try {
-            FileWriter writer = new FileWriter(nomeFicheiro);
+            File file = new File(nomeFicheiro);
+            FileWriter writer = new FileWriter(file);
 
             writer.append("{");
             writer.append("\"ucs\": [");
@@ -58,6 +52,9 @@ public class CreateWithUC {
 
             writer.flush();
             writer.close();
+            String directory = file.getAbsolutePath();
+            System.out.println("File saved in directory: " + directory);
+
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -66,8 +63,7 @@ public class CreateWithUC {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        CreateWithUC horario = new CreateWithUC();
-
+        System.out.println("Insira o nome do ficheiro ");
         System.out.println("Horário do Estudante");
         boolean exit = false;
 
@@ -105,14 +101,12 @@ public class CreateWithUC {
                     System.out.println("Insira o nome do ficheiro:");
                     String nomeFicheiro = scanner.nextLine();
                     horario.gravarHorarioCSV(nomeFicheiro);
-                    System.out.println("Horário gravado com sucesso");
 
                     break;
                 case 5:
                     System.out.println("Insira o nome do ficheiro:");
                     String nomeFicheiro2 = scanner.nextLine();
                     horario.gravarHorarioJSON(nomeFicheiro2);
-                    System.out.println("Horário gravado com sucesso");
 
                     break;
                 default:
