@@ -101,7 +101,8 @@ public class CreateFromURI {
 
     public static void main(String[] args) throws JsonProcessingException, IOException{
         String uri = "webcal://fenix.iscte-iul.pt/publico/publicPersonICalendar.do?method=iCalendar&username=avsmm@iscte.pt&password=NaneDPf4lWconuF4UuHHptGH9ZfjfjD677VcFhnJTeltafE2JtWwYyvCf4zZ8AyMpIDoOouT2OZNISmi4EAjRfLhHeZwzPzs1BweVlggz8lAvCtNzdo4DfsZBHErCZwf";
-         new CreateFromURI(uri);
+
+        new CreateFromURI(uri);
     }
 
 }
