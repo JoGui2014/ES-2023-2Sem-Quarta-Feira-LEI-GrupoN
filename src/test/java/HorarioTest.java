@@ -1,3 +1,5 @@
+import com.webpage.Aula;
+import com.webpage.Horario;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 import static org.junit.jupiter.api.Assertions.assertEquals;

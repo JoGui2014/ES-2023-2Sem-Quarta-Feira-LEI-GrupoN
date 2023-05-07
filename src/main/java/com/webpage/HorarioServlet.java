@@ -1,3 +1,7 @@
+package com.webpage;
+
+import com.webpage.Horario;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -8,7 +12,7 @@ public class HorarioServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String fileName = request.getParameter("fileName");
 
-        // Create a new instance of Horario and load the schedule
+        // Create a new instance of com.webpage.Horario and load the schedule
         Horario horario = new Horario(fileName);
 
         // Perform any operations on the horario object as needed

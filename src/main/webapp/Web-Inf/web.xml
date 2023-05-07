@@ -1,0 +1,19 @@
+<!DOCTYPE web-app PUBLIC>
+<web-app>
+    <servlet>
+        <servlet-name>
+            HorarioServlet
+        </servlet-name>
+        <servlet-class>
+            com.webpage.HorarioServlet
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            HorarioServlet
+        </servlet-name>
+        <url-pattern>
+            \HorarioServlet
+        </url-pattern>
+    </servlet-mapping>
+</web-app>

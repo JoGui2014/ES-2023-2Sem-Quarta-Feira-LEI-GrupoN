@@ -21,7 +21,7 @@
             fr.readAsText(fileInput.files[0]);
             fr.addEventListener('load', () => {
                 const csvData = fr.result;
-                const horario = new Horario(csvData); // Create an instance of Horario with CSV data
+                const horario = new Horario(csvData); // Create an instance of com.webpage.Horario with CSV data
                 var blocos = horario.getAulas(); // Retrieve the list of Aulas
                 // var lines = csvData.split('\n');
                 // for (var i = 0; i < lines.length; i++) {
