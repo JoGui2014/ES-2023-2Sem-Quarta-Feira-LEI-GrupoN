@@ -39,7 +39,13 @@ public class Horario {
             System.out.println("Unsupported file format.");
         }
     }
-
+    /**
+     * <p>
+     *  Converte um json file para um Horário
+     * </p>
+     * @param fileName nome do ficheiro
+     * @return -
+     */
     void loadFromJson(String fileName) {
         try {
             String jsonData = new String(Files.readAllBytes(Paths.get(fileName)));
@@ -51,7 +57,13 @@ public class Horario {
         }
     }
 
-
+    /**
+     * <p>
+     *  descobre o tipo de file (json ou csv)
+     * </p>
+     * @param fileName nome do ficheiro
+     * @return .csv ou .json
+     */
     private String getFileExtension(String fileName) {
         int dotIndex = fileName.lastIndexOf(".");
         if (dotIndex > 0 && dotIndex < fileName.length() - 1) {
@@ -60,7 +72,13 @@ public class Horario {
         return "";
     }
 
-
+    /**
+     * <p>
+     *  converte ficheiro .csv para um Horário
+     * </p>
+     * @param nomeArquivo nome do ficheiro
+     * @return .csv ou .json
+     */
     public List<Aula> loadFromCsv(String nomeArquivo) {
         this.aulas = new ArrayList<>();
         Map<String, DayOfWeek> diaMap = criarMapaDiasSemana();
@@ -93,6 +111,14 @@ public class Horario {
         return aulas;
     }
 
+    /**
+     * <p>
+     *  permite usar a Class DayOfWeek mas com nomenclaturas portuguesas
+     * </p>
+     * @param -
+     * @return mapa com os dias da semana em português a corresponder ao respetivo dia da semana em inglês
+     */
+
     public static Map<String, DayOfWeek> criarMapaDiasSemana() {
         Map<String, DayOfWeek> diaMap = new HashMap<>();
         diaMap.put("SEG", DayOfWeek.MONDAY);
@@ -105,25 +131,64 @@ public class Horario {
         return diaMap;
     }
 
-    public void removeAula(String aulaName){
+    /**
+     * <p>
+     *  remove todas as aulas da mesma UC
+     * </p>
+     * @param ucName nome da UC
+     * @return -
+     */
+
+    public void removeUC(String ucName){
         for (Aula a : this.aulas) {
-            if(a.uc.equalsIgnoreCase(aulaName))
+            if(a.uc.equalsIgnoreCase(ucName))
                 this.aulas.remove(a);
         }
     }
 
+    /**
+     * <p>
+     *  remove uma aula do Horário
+     * </p>
+     * @param a aula
+     * @return -
+     */
+
     public void removeAula(Aula a){
         this.aulas.remove(a);
     }
+
+    /**
+     * <p>
+     *  adiciona uma aula do Horário
+     * </p>
+     * @param a aula
+     * @return -
+     */
     public void addAula(Aula a){
         this.aulas.add(a);
     }
+    /**
+     * <p>
+     *  Imrime o horário
+     * </p>
+     * @param -
+     * @return -
+     */
+
     public void imprimirHorario() {
         for (Aula a : this.aulas) {
             System.out.println(a.toString());
         }
     }
 
+    /**
+     * <p>
+     *  permite ver as aulas que têm o número de alunos igual ou superior à lotação
+     * </p>
+     * @param -
+     * @return -
+     */
     public void visualizarAulasLotadas() {
         System.out.println("Aulas lotadas:");
         for (Aula aula : aulas) {
@@ -133,6 +198,13 @@ public class Horario {
         }
     }
 
+    /**
+     * <p>
+     *  permite ver as aulas que ocorrem na mesma altura num horário
+     * </p>
+     * @param -
+     * @return -
+     */
     public  void visualizarAulasSobrepostas() {
         // criar uma lista para armazenar as aulas sobrepostas
         List<Aula> aulasSobrepostas = new ArrayList<>();
@@ -159,7 +231,6 @@ public class Horario {
                 }
             }
         }
-
         // exibir aulas sobrepostas
         if (!aulasSobrepostas.isEmpty()) {
             System.out.println("As seguintes aulas estão sobrepostas:");
