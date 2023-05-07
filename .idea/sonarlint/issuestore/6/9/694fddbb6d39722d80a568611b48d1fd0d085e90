@@ -1,15 +1,0 @@
-
-i
-java:S2095S"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(à®¸ä8Îò…‰þ0
-o
-java:S2095;"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Ä°ÅÏüÿÿÿÿ8Ïò…‰þ0
-t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Û„¿ßûÿÿÿÿ8·•¸ßø0
-B
-java:S30108"%Remove this assignment of "jsonfile".(Í¸ÒÎ8âò…‰þ0
-U	java:S1069"9Replace this use of System.out or System.err by a logger.(ç…ˆ×8ïò…‰þ0
-Z	java:S106<"9Replace this use of System.out or System.err by a logger.(œšëàýÿÿÿÿ8òò…‰þ0
-o
-java:S3776N"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ÀÛ¥Œ8„ó…‰þ0
-]	java:S125d"<This block of commented-out lines of code should be removed.(Ý÷ëÿùÿÿÿÿ8¾•¸ßø0
-]	java:S125l"<This block of commented-out lines of code should be removed.(˜ý€½ùÿÿÿÿ8¿•¸ßø0
