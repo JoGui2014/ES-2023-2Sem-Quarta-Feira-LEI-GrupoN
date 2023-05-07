@@ -73,7 +73,7 @@ class HorarioTest {
 
         Horario h = new Horario("");
         h.setAulas(aulas);
-        h.removeAula("UC 2");
+        h.removeUC("UC 2");
 
         assertEquals(h.getAulas(),aulas2);
 
