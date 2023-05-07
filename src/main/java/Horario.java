@@ -140,10 +140,7 @@ public class Horario {
      */
 
     public void removeUC(String ucName){
-        for (Aula a : this.aulas) {
-            if(a.uc.equalsIgnoreCase(ucName))
-                this.aulas.remove(a);
-        }
+        this.aulas.removeIf(a -> a.uc.equalsIgnoreCase(ucName));
     }
 
     /**
@@ -205,7 +202,7 @@ public class Horario {
      * @param -
      * @return -
      */
-    public  void visualizarAulasSobrepostas() {
+    public void visualizaraulassobrepostas() {
         // criar uma lista para armazenar as aulas sobrepostas
         List<Aula> aulasSobrepostas = new ArrayList<>();
 
@@ -222,12 +219,11 @@ public class Horario {
                 LocalTime fimAula2 = aula2.getFim();
 
                 // verificar se as aulas estão sobrepostas no mesmo dia
-                if (aula1.getDia() == aula2.getDia()) {
-                    if ((inicioAula1.isBefore(inicioAula2) && fimAula1.isAfter(inicioAula2)) ||
-                            (inicioAula2.isBefore(inicioAula1) && fimAula2.isAfter(inicioAula1))) {
+                if (aula1.getDia() == aula2.getDia() && ((inicioAula1.isBefore(inicioAula2) && fimAula1.isAfter(inicioAula2)) ||
+                            (inicioAula2.isBefore(inicioAula1) && fimAula2.isAfter(inicioAula1)))) {
                         aulasSobrepostas.add(aula1);
                         aulasSobrepostas.add(aula2);
-                    }
+
                 }
             }
         }

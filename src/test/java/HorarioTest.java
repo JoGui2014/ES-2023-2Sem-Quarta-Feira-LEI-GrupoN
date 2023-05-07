@@ -169,7 +169,7 @@ class HorarioTest {
         // Call the method being tested
         Horario h = new Horario("algo");
         h.setAulas(aulas);
-        h.visualizarAulasSobrepostas();
+        h.visualizaraulassobrepostas();
         String expectedOutput = "Unsupported file format.\r\n" +
                 "As seguintes aulas estão sobrepostas:\r\n" +
                 "Aula{curso='Curso 2', uc='UC 2', turno='Tarde', turma='Turma 2', inscritos=20, dia=TUESDAY, inicio=14:00, fim=16:00, sala='Sala 2', lotacao=25}\r\n" +
