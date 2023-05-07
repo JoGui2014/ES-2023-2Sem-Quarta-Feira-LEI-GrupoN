@@ -6,12 +6,6 @@
           "location": "C6.01, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Feb 09 14:30:00 WET 2023",
-          "end": "Thu Feb 09 16:00:00 WET 2023",
-          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Engenharia de Software - Software Engineering",
           "start": "Tue Apr 11 13:00:00 WEST 2023",
           "end": "Tue Apr 11 14:30:00 WEST 2023",
@@ -22,24 +16,6 @@
           "start": "Thu Mar 30 11:00:00 WEST 2023",
           "end": "Thu Mar 30 12:30:00 WEST 2023",
           "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu May 04 16:00:00 WEST 2023",
-          "end": "Thu May 04 17:30:00 WEST 2023",
-          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Agentes Autónomos - Autonomous Agents",
-          "start": "Wed Oct 12 14:30:00 WEST 2022",
-          "end": "Wed Oct 12 16:00:00 WEST 2022",
-          "location": "D1.12, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Agentes Autónomos - Autonomous Agents",
-          "start": "Wed Nov 09 14:30:00 WET 2022",
-          "end": "Wed Nov 09 16:00:00 WET 2022",
-          "location": "C4.01, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Engenharia de Software - Software Engineering",
@@ -60,16 +36,22 @@
           "location": "Auditório B1.04, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Mar 23 14:30:00 WET 2023",
+          "end": "Thu Mar 23 16:00:00 WET 2023",
+          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Feb 07 14:30:00 WET 2023",
+          "end": "Tue Feb 07 16:00:00 WET 2023",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Sistemas de Data Warehouse e Business Intelligence - Data Warehouse and Business Intelligence Systems",
           "start": "Wed Dec 07 09:30:00 WET 2022",
           "end": "Wed Dec 07 11:00:00 WET 2022",
           "location": "C6.01, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
-          "start": "Wed Mar 22 14:30:00 WET 2023",
-          "end": "Wed Mar 22 16:00:00 WET 2023",
-          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
@@ -126,6 +108,12 @@
           "location": "C6.10, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Wed Dec 07 14:30:00 WET 2022",
+          "end": "Wed Dec 07 16:00:00 WET 2022",
+          "location": "C4.01, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Segurança em Sistemas de Informação - Information Systems Security",
           "start": "Tue Feb 28 16:00:00 WET 2023",
           "end": "Tue Feb 28 17:30:00 WET 2023",
@@ -138,16 +126,10 @@
           "location": "Auditório B1.04, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Mar 30 16:00:00 WEST 2023",
-          "end": "Thu Mar 30 17:30:00 WEST 2023",
-          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Engenharia de Software - Software Engineering",
-          "start": "Tue Feb 07 14:30:00 WET 2023",
-          "end": "Tue Feb 07 16:00:00 WET 2023",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Thu Oct 06 14:30:00 WEST 2022",
+          "end": "Thu Oct 06 16:00:00 WEST 2022",
+          "location": "2E10, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
@@ -162,6 +144,12 @@
           "location": "D1.05, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Wed Mar 29 14:30:00 WEST 2023",
+          "end": "Wed Mar 29 16:00:00 WEST 2023",
+          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Agentes Autónomos - Autonomous Agents",
           "start": "Tue Sep 20 13:00:00 WEST 2022",
           "end": "Tue Sep 20 14:30:00 WEST 2022",
@@ -169,15 +157,15 @@
      },
      {
           "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Mar 09 14:30:00 WET 2023",
+          "end": "Thu Mar 09 16:00:00 WET 2023",
+          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
           "start": "Thu Apr 20 16:00:00 WEST 2023",
           "end": "Thu Apr 20 17:30:00 WEST 2023",
           "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
-          "start": "Wed Mar 01 14:30:00 WET 2023",
-          "end": "Wed Mar 01 16:00:00 WET 2023",
-          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Segurança em Sistemas de Informação - Information Systems Security",
@@ -190,12 +178,6 @@
           "start": "Thu May 11 11:00:00 WEST 2023",
           "end": "Thu May 11 12:30:00 WEST 2023",
           "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Engenharia de Software - Software Engineering",
-          "start": "Tue Feb 14 14:30:00 WET 2023",
-          "end": "Tue Feb 14 16:00:00 WET 2023",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Agentes Autónomos - Autonomous Agents",
@@ -216,12 +198,6 @@
           "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Engenharia de Software - Software Engineering",
-          "start": "Tue Mar 14 14:30:00 WET 2023",
-          "end": "Tue Mar 14 16:00:00 WET 2023",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Arquitetura de Redes - Network Arquitectures",
           "start": "Thu Oct 27 11:00:00 WEST 2022",
           "end": "Thu Oct 27 12:30:00 WEST 2022",
@@ -232,6 +208,12 @@
           "start": "Wed Nov 30 09:30:00 WET 2022",
           "end": "Wed Nov 30 11:00:00 WET 2022",
           "location": "C6.01, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Feb 28 13:00:00 WET 2023",
+          "end": "Tue Feb 28 14:30:00 WET 2023",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Processamento de Informação - Information Processing",
@@ -246,16 +228,22 @@
           "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Feb 23 16:00:00 WET 2023",
-          "end": "Thu Feb 23 17:30:00 WET 2023",
-          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Wed Mar 01 13:00:00 WET 2023",
+          "end": "Wed Mar 01 14:30:00 WET 2023",
+          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Arquitetura de Redes - Network Arquitectures",
           "start": "Mon Nov 14 14:30:00 WET 2022",
           "end": "Mon Nov 14 16:00:00 WET 2022",
           "location": "Auditório B1.03, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Feb 14 14:30:00 WET 2023",
+          "end": "Tue Feb 14 16:00:00 WET 2023",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
@@ -295,8 +283,8 @@
      },
      {
           "summary": "Engenharia de Software - Software Engineering",
-          "start": "Tue Mar 28 13:00:00 WEST 2023",
-          "end": "Tue Mar 28 14:30:00 WEST 2023",
+          "start": "Tue Feb 07 13:00:00 WET 2023",
+          "end": "Tue Feb 07 14:30:00 WET 2023",
           "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
@@ -304,6 +292,12 @@
           "start": "Mon Nov 21 16:00:00 WET 2022",
           "end": "Mon Nov 21 17:30:00 WET 2022",
           "location": "Auditório B1.03, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Thu Sep 22 14:30:00 WEST 2022",
+          "end": "Thu Sep 22 16:00:00 WEST 2022",
+          "location": "1E03, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
@@ -318,28 +312,10 @@
           "location": "C6.01, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Feb 16 16:00:00 WET 2023",
-          "end": "Thu Feb 16 17:30:00 WET 2023",
-          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
-          "start": "Wed Mar 29 13:00:00 WEST 2023",
-          "end": "Wed Mar 29 14:30:00 WEST 2023",
-          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Sistemas de Data Warehouse e Business Intelligence - Data Warehouse and Business Intelligence Systems",
           "start": "Wed Oct 19 11:00:00 WEST 2022",
           "end": "Wed Oct 19 12:30:00 WEST 2022",
           "location": "C6.01, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
-          "start": "Wed May 17 13:00:00 WEST 2023",
-          "end": "Wed May 17 14:30:00 WEST 2023",
-          "location": "C2.02, 2, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Arquitetura de Redes - Network Arquitectures",
@@ -352,12 +328,6 @@
           "start": "Tue Nov 22 16:00:00 WET 2022",
           "end": "Tue Nov 22 17:30:00 WET 2022",
           "location": "C5.09, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Mar 23 16:00:00 WET 2023",
-          "end": "Thu Mar 23 17:30:00 WET 2023",
-          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Engenharia de Software - Software Engineering",
@@ -376,12 +346,6 @@
           "start": "Wed Apr 26 13:00:00 WEST 2023",
           "end": "Wed Apr 26 14:30:00 WEST 2023",
           "location": "C5.05, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
-          "start": "Wed May 17 14:30:00 WEST 2023",
-          "end": "Wed May 17 16:00:00 WEST 2023",
-          "location": "C2.02, 2, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Engenharia de Software - Software Engineering",
@@ -420,16 +384,22 @@
           "location": "Auditório 0NE03 - Mário Murteira, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Mar 28 13:00:00 WEST 2023",
+          "end": "Tue Mar 28 14:30:00 WEST 2023",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Mar 09 16:00:00 WET 2023",
+          "end": "Thu Mar 09 17:30:00 WET 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
           "start": "Tue Sep 13 14:30:00 WEST 2022",
           "end": "Tue Sep 13 16:00:00 WEST 2022",
           "location": "C5.09, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Agentes Autónomos - Autonomous Agents",
-          "start": "Wed Sep 28 14:30:00 WEST 2022",
-          "end": "Wed Sep 28 16:00:00 WEST 2022",
-          "location": "D1.12, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
@@ -454,6 +424,12 @@
           "start": "Fri May 12 14:30:00 WEST 2023",
           "end": "Fri May 12 16:00:00 WEST 2023",
           "location": "D1.05, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Mar 02 16:00:00 WET 2023",
+          "end": "Thu Mar 02 17:30:00 WET 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
@@ -510,12 +486,6 @@
           "location": "Auditório B1.04, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Agentes Autónomos - Autonomous Agents",
-          "start": "Wed Oct 19 14:30:00 WEST 2022",
-          "end": "Wed Oct 19 16:00:00 WEST 2022",
-          "location": "C4.01, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Arquitetura de Redes - Network Arquitectures",
           "start": "Mon Sep 26 14:30:00 WEST 2022",
           "end": "Mon Sep 26 16:00:00 WEST 2022",
@@ -541,12 +511,6 @@
      },
      {
           "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Mar 16 16:00:00 WET 2023",
-          "end": "Thu Mar 16 17:30:00 WET 2023",
-          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
           "start": "Mon Apr 17 14:30:00 WEST 2023",
           "end": "Mon Apr 17 16:00:00 WEST 2023",
           "location": "Auditório B1.04, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
@@ -556,12 +520,6 @@
           "start": "Fri Mar 31 14:30:00 WEST 2023",
           "end": "Fri Mar 31 16:00:00 WEST 2023",
           "location": "C6.10, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Feb 09 16:00:00 WET 2023",
-          "end": "Thu Feb 09 17:30:00 WET 2023",
-          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Engenharia de Software - Software Engineering",
@@ -576,16 +534,16 @@
           "location": "Auditório 0NE02-Caiano Pereira, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Wed Mar 01 14:30:00 WET 2023",
+          "end": "Wed Mar 01 16:00:00 WET 2023",
+          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Processamento de Informação - Information Processing",
           "start": "Wed Nov 23 16:00:00 WET 2022",
           "end": "Wed Nov 23 17:30:00 WET 2022",
           "location": "Auditório 0NE02-Caiano Pereira, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Engenharia de Software - Software Engineering",
-          "start": "Tue Mar 21 14:30:00 WET 2023",
-          "end": "Tue Mar 21 16:00:00 WET 2023",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
@@ -612,12 +570,6 @@
           "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Mar 16 14:30:00 WET 2023",
-          "end": "Thu Mar 16 16:00:00 WET 2023",
-          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Agentes Autónomos - Autonomous Agents",
           "start": "Mon Oct 24 13:00:00 WEST 2022",
           "end": "Mon Oct 24 14:30:00 WEST 2022",
@@ -628,6 +580,12 @@
           "start": "Mon Nov 14 13:00:00 WET 2022",
           "end": "Mon Nov 14 14:30:00 WET 2022",
           "location": "Auditório B1.03, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Nov 29 13:00:00 WET 2022",
+          "end": "Tue Nov 29 14:30:00 WET 2022",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
@@ -696,6 +654,12 @@
           "location": "C2.01, 2, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Wed Dec 14 13:00:00 WET 2022",
+          "end": "Wed Dec 14 14:30:00 WET 2022",
+          "location": "2E10, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
           "start": "Fri May 12 14:30:00 WEST 2023",
           "end": "Fri May 12 16:00:00 WEST 2023",
@@ -720,24 +684,6 @@
           "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu May 04 14:30:00 WEST 2023",
-          "end": "Thu May 04 16:00:00 WEST 2023",
-          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Mar 02 16:00:00 WET 2023",
-          "end": "Thu Mar 02 17:30:00 WET 2023",
-          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
-          "start": "Wed May 24 14:30:00 WEST 2023",
-          "end": "Wed May 24 16:00:00 WEST 2023",
-          "location": "C2.02, 2, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Processamento de Informação - Information Processing",
           "start": "Fri Oct 14 16:00:00 WEST 2022",
           "end": "Fri Oct 14 17:30:00 WEST 2022",
@@ -757,15 +703,9 @@
      },
      {
           "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Mar 09 14:30:00 WET 2023",
-          "end": "Thu Mar 09 16:00:00 WET 2023",
+          "start": "Thu Mar 16 14:30:00 WET 2023",
+          "end": "Thu Mar 16 16:00:00 WET 2023",
           "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
-          "start": "Wed Mar 01 13:00:00 WET 2023",
-          "end": "Wed Mar 01 14:30:00 WET 2023",
-          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Engenharia de Software - Software Engineering",
@@ -784,12 +724,6 @@
           "start": "Fri Mar 10 13:00:00 WET 2023",
           "end": "Fri Mar 10 14:30:00 WET 2023",
           "location": "D1.05, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
-          "start": "Wed Mar 15 13:00:00 WET 2023",
-          "end": "Wed Mar 15 14:30:00 WET 2023",
-          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
@@ -832,12 +766,6 @@
           "start": "Mon Oct 17 13:00:00 WEST 2022",
           "end": "Mon Oct 17 14:30:00 WEST 2022",
           "location": "Auditório B1.03, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
-          "start": "Wed Mar 22 13:00:00 WET 2023",
-          "end": "Wed Mar 22 14:30:00 WET 2023",
-          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
@@ -948,6 +876,30 @@
           "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Feb 09 14:30:00 WET 2023",
+          "end": "Thu Feb 09 16:00:00 WET 2023",
+          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Wed Nov 30 14:30:00 WET 2022",
+          "end": "Wed Nov 30 16:00:00 WET 2022",
+          "location": "C4.01, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Wed Mar 15 14:30:00 WET 2023",
+          "end": "Wed Mar 15 16:00:00 WET 2023",
+          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Feb 14 13:00:00 WET 2023",
+          "end": "Tue Feb 14 14:30:00 WET 2023",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Engenharia de Software - Software Engineering",
           "start": "Mon Apr 24 13:00:00 WEST 2023",
           "end": "Mon Apr 24 14:30:00 WEST 2023",
@@ -958,6 +910,12 @@
           "start": "Fri Mar 24 13:00:00 WET 2023",
           "end": "Fri Mar 24 14:30:00 WET 2023",
           "location": "D1.05, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Mar 30 16:00:00 WEST 2023",
+          "end": "Thu Mar 30 17:30:00 WEST 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
@@ -973,8 +931,8 @@
      },
      {
           "summary": "Engenharia de Software - Software Engineering",
-          "start": "Tue Feb 14 13:00:00 WET 2023",
-          "end": "Tue Feb 14 14:30:00 WET 2023",
+          "start": "Tue Mar 14 14:30:00 WET 2023",
+          "end": "Tue Mar 14 16:00:00 WET 2023",
           "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
@@ -996,10 +954,22 @@
           "location": "C6.01, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Mar 14 13:00:00 WET 2023",
+          "end": "Tue Mar 14 14:30:00 WET 2023",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Segurança em Sistemas de Informação - Information Systems Security",
           "start": "Thu Mar 02 13:00:00 WET 2023",
           "end": "Thu Mar 02 14:30:00 WET 2023",
           "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Wed Sep 28 14:30:00 WEST 2022",
+          "end": "Wed Sep 28 16:00:00 WEST 2022",
+          "location": "D1.12, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
@@ -1020,10 +990,10 @@
           "location": "C7.09, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Arquitetura de Redes - Network Arquitectures",
-          "start": "Thu Sep 22 14:30:00 WEST 2022",
-          "end": "Thu Sep 22 16:00:00 WEST 2022",
-          "location": "1E03, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Wed Feb 15 13:00:00 WET 2023",
+          "end": "Wed Feb 15 14:30:00 WET 2023",
+          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Segurança em Sistemas de Informação - Information Systems Security",
@@ -1044,28 +1014,10 @@
           "location": "Auditório 0NE02-Caiano Pereira, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Mar 30 14:30:00 WEST 2023",
-          "end": "Thu Mar 30 16:00:00 WEST 2023",
-          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
           "start": "Tue Sep 20 14:30:00 WEST 2022",
           "end": "Tue Sep 20 16:00:00 WEST 2022",
           "location": "C5.09, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
-          "start": "Wed Feb 15 13:00:00 WET 2023",
-          "end": "Wed Feb 15 14:30:00 WET 2023",
-          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Agentes Autónomos - Autonomous Agents",
-          "start": "Tue Nov 22 13:00:00 WET 2022",
-          "end": "Tue Nov 22 14:30:00 WET 2022",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
@@ -1074,10 +1026,22 @@
           "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
-          "start": "Wed Mar 29 14:30:00 WEST 2023",
-          "end": "Wed Mar 29 16:00:00 WEST 2023",
-          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Feb 09 16:00:00 WET 2023",
+          "end": "Thu Feb 09 17:30:00 WET 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Mar 28 14:30:00 WEST 2023",
+          "end": "Tue Mar 28 16:00:00 WEST 2023",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Mar 30 14:30:00 WEST 2023",
+          "end": "Thu Mar 30 16:00:00 WEST 2023",
+          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Processamento de Informação - Information Processing",
@@ -1110,22 +1074,28 @@
           "location": "C6.10, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Feb 28 14:30:00 WET 2023",
+          "end": "Tue Feb 28 16:00:00 WET 2023",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Arquitetura de Redes - Network Arquitectures",
           "start": "Wed Oct 19 13:00:00 WEST 2022",
           "end": "Wed Oct 19 14:30:00 WEST 2022",
           "location": "C4.02, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Arquitetura de Redes - Network Arquitectures",
-          "start": "Wed Dec 14 13:00:00 WET 2022",
-          "end": "Wed Dec 14 14:30:00 WET 2022",
-          "location": "2E10, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
           "start": "Tue Dec 13 14:30:00 WET 2022",
           "end": "Tue Dec 13 16:00:00 WET 2022",
           "location": "D1.01, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Mar 21 13:00:00 WET 2023",
+          "end": "Tue Mar 21 14:30:00 WET 2023",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
@@ -1152,6 +1122,12 @@
           "location": "C2.02, 2, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Wed Mar 15 13:00:00 WET 2023",
+          "end": "Wed Mar 15 14:30:00 WET 2023",
+          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
           "start": "Mon Dec 12 16:00:00 WET 2022",
           "end": "Mon Dec 12 17:30:00 WET 2022",
@@ -1162,6 +1138,12 @@
           "start": "Mon Oct 17 14:30:00 WEST 2022",
           "end": "Mon Oct 17 16:00:00 WEST 2022",
           "location": "Auditório B1.03, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Wed Nov 09 14:30:00 WET 2022",
+          "end": "Wed Nov 09 16:00:00 WET 2022",
+          "location": "C4.01, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
@@ -1177,12 +1159,6 @@
      },
      {
           "summary": "Agentes Autónomos - Autonomous Agents",
-          "start": "Tue Nov 29 13:00:00 WET 2022",
-          "end": "Tue Nov 29 14:30:00 WET 2022",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Agentes Autónomos - Autonomous Agents",
           "start": "Mon Sep 19 13:00:00 WEST 2022",
           "end": "Mon Sep 19 14:30:00 WEST 2022",
           "location": "Auditório B1.03, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
@@ -1195,9 +1171,9 @@
      },
      {
           "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Mar 23 14:30:00 WET 2023",
-          "end": "Thu Mar 23 16:00:00 WET 2023",
-          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+          "start": "Thu Feb 16 16:00:00 WET 2023",
+          "end": "Thu Feb 16 17:30:00 WET 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Arquitetura de Redes - Network Arquitectures",
@@ -1224,34 +1200,16 @@
           "location": "C6.07, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Engenharia de Software - Software Engineering",
-          "start": "Tue Mar 28 14:30:00 WEST 2023",
-          "end": "Tue Mar 28 16:00:00 WEST 2023",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Arquitetura de Redes - Network Arquitectures",
           "start": "Wed Sep 28 13:00:00 WEST 2022",
           "end": "Wed Sep 28 14:30:00 WEST 2022",
           "location": "C4.02, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Agentes Autónomos - Autonomous Agents",
-          "start": "Tue Nov 08 13:00:00 WET 2022",
-          "end": "Tue Nov 08 14:30:00 WET 2022",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Arquitetura de Redes - Network Arquitectures",
           "start": "Mon Oct 24 14:30:00 WEST 2022",
           "end": "Mon Oct 24 16:00:00 WEST 2022",
           "location": "Auditório B1.03, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Arquitetura de Redes - Network Arquitectures",
-          "start": "Thu Sep 15 14:30:00 WEST 2022",
-          "end": "Thu Sep 15 16:00:00 WEST 2022",
-          "location": "1E03, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Segurança em Sistemas de Informação - Information Systems Security",
@@ -1272,16 +1230,22 @@
           "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Engenharia de Software - Software Engineering",
-          "start": "Tue Mar 21 13:00:00 WET 2023",
-          "end": "Tue Mar 21 14:30:00 WET 2023",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Mar 02 14:30:00 WET 2023",
+          "end": "Thu Mar 02 16:00:00 WET 2023",
+          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Processamento de Informação - Information Processing",
           "start": "Fri Nov 25 16:00:00 WET 2022",
           "end": "Fri Nov 25 17:30:00 WET 2022",
           "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Nov 15 13:00:00 WET 2022",
+          "end": "Tue Nov 15 14:30:00 WET 2022",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Arquitetura de Redes - Network Arquitectures",
@@ -1302,6 +1266,12 @@
           "location": "C6.01, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Wed Nov 23 14:30:00 WET 2022",
+          "end": "Wed Nov 23 16:00:00 WET 2022",
+          "location": "C4.01, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
           "start": "Thu Apr 20 14:30:00 WEST 2023",
           "end": "Thu Apr 20 16:00:00 WEST 2023",
@@ -1312,12 +1282,6 @@
           "start": "Fri Dec 02 14:30:00 WET 2022",
           "end": "Fri Dec 02 16:00:00 WET 2022",
           "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
-          "start": "Wed May 24 13:00:00 WEST 2023",
-          "end": "Wed May 24 14:30:00 WEST 2023",
-          "location": "C2.02, 2, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
@@ -1362,16 +1326,10 @@
           "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Agentes Autónomos - Autonomous Agents",
-          "start": "Wed Sep 21 14:30:00 WEST 2022",
-          "end": "Wed Sep 21 16:00:00 WEST 2022",
-          "location": "C4.01, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Engenharia de Software - Software Engineering",
-          "start": "Tue Mar 07 13:00:00 WET 2023",
-          "end": "Tue Mar 07 14:30:00 WET 2023",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Wed May 24 13:00:00 WEST 2023",
+          "end": "Wed May 24 14:30:00 WEST 2023",
+          "location": "C2.02, 2, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
@@ -1392,10 +1350,10 @@
           "location": "C6.10, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Engenharia de Software - Software Engineering",
-          "start": "Tue Feb 07 13:00:00 WET 2023",
-          "end": "Tue Feb 07 14:30:00 WET 2023",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Wed Mar 22 13:00:00 WET 2023",
+          "end": "Wed Mar 22 14:30:00 WET 2023",
+          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
@@ -1414,12 +1372,6 @@
           "start": "Thu Feb 09 13:00:00 WET 2023",
           "end": "Thu Feb 09 14:30:00 WET 2023",
           "location": "Auditório 2, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Engenharia de Software - Software Engineering",
-          "start": "Tue Feb 28 13:00:00 WET 2023",
-          "end": "Tue Feb 28 14:30:00 WET 2023",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Sistemas de Data Warehouse e Business Intelligence - Data Warehouse and Business Intelligence Systems",
@@ -1458,12 +1410,6 @@
           "location": "Auditório 0NE02-Caiano Pereira, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Feb 16 14:30:00 WET 2023",
-          "end": "Thu Feb 16 16:00:00 WET 2023",
-          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
           "start": "Wed May 03 13:00:00 WEST 2023",
           "end": "Wed May 03 14:30:00 WEST 2023",
@@ -1482,6 +1428,12 @@
           "location": "C7.09, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Nov 08 13:00:00 WET 2022",
+          "end": "Tue Nov 08 14:30:00 WET 2022",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Engenharia de Software - Software Engineering",
           "start": "Tue Apr 18 14:30:00 WEST 2023",
           "end": "Tue Apr 18 16:00:00 WEST 2023",
@@ -1494,12 +1446,6 @@
           "location": "D1.05, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Mar 09 16:00:00 WET 2023",
-          "end": "Thu Mar 09 17:30:00 WET 2023",
-          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Agentes Autónomos - Autonomous Agents",
           "start": "Tue Oct 04 13:00:00 WEST 2022",
           "end": "Tue Oct 04 14:30:00 WEST 2022",
@@ -1510,6 +1456,18 @@
           "start": "Tue Sep 27 13:00:00 WEST 2022",
           "end": "Tue Sep 27 14:30:00 WEST 2022",
           "location": "C4.02, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Tue Nov 22 13:00:00 WET 2022",
+          "end": "Tue Nov 22 14:30:00 WET 2022",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Wed May 17 14:30:00 WEST 2023",
+          "end": "Wed May 17 16:00:00 WEST 2023",
+          "location": "C2.02, 2, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Engenharia de Software - Software Engineering",
@@ -1566,12 +1524,6 @@
           "location": "C6.01, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Agentes Autónomos - Autonomous Agents",
-          "start": "Wed Dec 07 14:30:00 WET 2022",
-          "end": "Wed Dec 07 16:00:00 WET 2022",
-          "location": "C4.01, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
           "start": "Mon Sep 26 16:00:00 WEST 2022",
           "end": "Mon Sep 26 17:30:00 WEST 2022",
@@ -1608,6 +1560,18 @@
           "location": "Auditório B1.03, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Wed Mar 22 14:30:00 WET 2023",
+          "end": "Wed Mar 22 16:00:00 WET 2023",
+          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Mar 21 14:30:00 WET 2023",
+          "end": "Tue Mar 21 16:00:00 WET 2023",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Sistemas de Data Warehouse e Business Intelligence - Data Warehouse and Business Intelligence Systems",
           "start": "Wed Oct 19 09:30:00 WEST 2022",
           "end": "Wed Oct 19 11:00:00 WEST 2022",
@@ -1620,10 +1584,16 @@
           "location": "C5.09, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Agentes Autónomos - Autonomous Agents",
-          "start": "Tue Nov 15 13:00:00 WET 2022",
-          "end": "Tue Nov 15 14:30:00 WET 2022",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Wed May 24 14:30:00 WEST 2023",
+          "end": "Wed May 24 16:00:00 WEST 2023",
+          "location": "C2.02, 2, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Arquitetura de Redes - Network Arquitectures",
+          "start": "Thu Sep 15 14:30:00 WEST 2022",
+          "end": "Thu Sep 15 16:00:00 WEST 2022",
+          "location": "1E03, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Segurança em Sistemas de Informação - Information Systems Security",
@@ -1638,6 +1608,12 @@
           "location": "Auditório 0NE02-Caiano Pereira, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Wed Sep 14 14:30:00 WEST 2022",
+          "end": "Wed Sep 14 16:00:00 WEST 2022",
+          "location": "D1.12, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
           "start": "Fri Apr 28 14:30:00 WEST 2023",
           "end": "Fri Apr 28 16:00:00 WEST 2023",
@@ -1650,10 +1626,22 @@
           "location": "C6.01, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Feb 23 16:00:00 WET 2023",
+          "end": "Thu Feb 23 17:30:00 WET 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Sistemas de Data Warehouse e Business Intelligence - Data Warehouse and Business Intelligence Systems",
           "start": "Wed Nov 02 11:00:00 WET 2022",
           "end": "Wed Nov 02 12:30:00 WET 2022",
           "location": "C6.01, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Wed Nov 16 14:30:00 WET 2022",
+          "end": "Wed Nov 16 16:00:00 WET 2022",
+          "location": "C4.01, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
@@ -1692,16 +1680,16 @@
           "location": "Auditório Afonso de Barros, 1, Ala Autónoma (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Feb 16 14:30:00 WET 2023",
+          "end": "Thu Feb 16 16:00:00 WET 2023",
+          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Arquitetura de Redes - Network Arquitectures",
           "start": "Thu Sep 29 11:00:00 WEST 2022",
           "end": "Thu Sep 29 12:30:00 WEST 2022",
           "location": "C7.09, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Agentes Autónomos - Autonomous Agents",
-          "start": "Wed Nov 23 14:30:00 WET 2022",
-          "end": "Wed Nov 23 16:00:00 WET 2022",
-          "location": "C4.01, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
@@ -1722,12 +1710,6 @@
           "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Engenharia de Software - Software Engineering",
-          "start": "Tue Feb 28 14:30:00 WET 2023",
-          "end": "Tue Feb 28 16:00:00 WET 2023",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Agentes Autónomos - Autonomous Agents",
           "start": "Mon Sep 12 13:00:00 WEST 2022",
           "end": "Mon Sep 12 14:30:00 WEST 2022",
@@ -1738,6 +1720,12 @@
           "start": "Wed Sep 28 16:00:00 WEST 2022",
           "end": "Wed Sep 28 17:30:00 WEST 2022",
           "location": "Auditório 0NE02-Caiano Pereira, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Mar 16 16:00:00 WET 2023",
+          "end": "Thu Mar 16 17:30:00 WET 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Segurança em Sistemas de Informação - Information Systems Security",
@@ -1776,6 +1764,12 @@
           "location": "C5.09, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Wed Feb 15 14:30:00 WET 2023",
+          "end": "Wed Feb 15 16:00:00 WET 2023",
+          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Programação Concorrente e Distribuída - Concurrent and Parallel Programming",
           "start": "Tue Nov 15 16:00:00 WET 2022",
           "end": "Tue Nov 15 17:30:00 WET 2022",
@@ -1794,12 +1788,6 @@
           "location": "C5.09, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Agentes Autónomos - Autonomous Agents",
-          "start": "Wed Sep 14 14:30:00 WEST 2022",
-          "end": "Wed Sep 14 16:00:00 WEST 2022",
-          "location": "D1.12, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Segurança em Sistemas de Informação - Information Systems Security",
           "start": "Thu May 04 11:00:00 WEST 2023",
           "end": "Thu May 04 12:30:00 WEST 2023",
@@ -1810,6 +1798,18 @@
           "start": "Thu Dec 15 11:00:00 WET 2022",
           "end": "Thu Dec 15 12:30:00 WET 2022",
           "location": "C7.09, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Wed Oct 19 14:30:00 WEST 2022",
+          "end": "Wed Oct 19 16:00:00 WEST 2022",
+          "location": "C4.01, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Engenharia de Software - Software Engineering",
+          "start": "Tue Mar 07 13:00:00 WET 2023",
+          "end": "Tue Mar 07 14:30:00 WET 2023",
+          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Desenvolvimento para A Internet e Aplicações Móveis - Development for Internet and Mobile Apps",
@@ -1824,22 +1824,10 @@
           "location": "C5.09, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Mar 02 14:30:00 WET 2023",
-          "end": "Thu Mar 02 16:00:00 WET 2023",
-          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
           "summary": "Processamento de Informação - Information Processing",
           "start": "Fri Oct 21 16:00:00 WEST 2022",
           "end": "Fri Oct 21 17:30:00 WEST 2022",
           "location": "Auditório 1, 1, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Agentes Autónomos - Autonomous Agents",
-          "start": "Wed Nov 30 14:30:00 WET 2022",
-          "end": "Wed Nov 30 16:00:00 WET 2022",
-          "location": "C4.01, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Sistemas de Data Warehouse e Business Intelligence - Data Warehouse and Business Intelligence Systems",
@@ -1878,10 +1866,10 @@
           "location": "D1.05, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Engenharia de Software - Software Engineering",
-          "start": "Tue Mar 07 14:30:00 WET 2023",
-          "end": "Tue Mar 07 16:00:00 WET 2023",
-          "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu May 04 16:00:00 WEST 2023",
+          "end": "Thu May 04 17:30:00 WEST 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Processamento de Informação - Information Processing",
@@ -1896,28 +1884,22 @@
           "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
-          "start": "Thu Feb 23 14:30:00 WET 2023",
-          "end": "Thu Feb 23 16:00:00 WET 2023",
-          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Wed Oct 12 14:30:00 WEST 2022",
+          "end": "Wed Oct 12 16:00:00 WEST 2022",
+          "location": "D1.12, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Wed Mar 29 13:00:00 WEST 2023",
+          "end": "Wed Mar 29 14:30:00 WEST 2023",
+          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Agentes Autónomos - Autonomous Agents",
           "start": "Mon Oct 31 13:00:00 WET 2022",
           "end": "Mon Oct 31 14:30:00 WET 2022",
           "location": "Auditório B1.03, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
-          "start": "Wed Feb 15 14:30:00 WET 2023",
-          "end": "Wed Feb 15 16:00:00 WET 2023",
-          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
-          "start": "Wed Mar 15 14:30:00 WET 2023",
-          "end": "Wed Mar 15 16:00:00 WET 2023",
-          "location": "2E05, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Sistemas de Data Warehouse e Business Intelligence - Data Warehouse and Business Intelligence Systems",
@@ -1927,8 +1909,8 @@
      },
      {
           "summary": "Engenharia de Software - Software Engineering",
-          "start": "Tue Mar 14 13:00:00 WET 2023",
-          "end": "Tue Mar 14 14:30:00 WET 2023",
+          "start": "Tue Mar 07 14:30:00 WET 2023",
+          "end": "Tue Mar 07 16:00:00 WET 2023",
           "location": "D1.02, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
@@ -1938,10 +1920,22 @@
           "location": "0S08, 0, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
+          "summary": "Agentes Autónomos - Autonomous Agents",
+          "start": "Wed Sep 21 14:30:00 WEST 2022",
+          "end": "Wed Sep 21 16:00:00 WEST 2022",
+          "location": "C4.01, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
           "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
           "start": "Fri Mar 24 14:30:00 WET 2023",
           "end": "Fri Mar 24 16:00:00 WET 2023",
           "location": "C6.10, 6, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Mar 23 16:00:00 WET 2023",
+          "end": "Thu Mar 23 17:30:00 WET 2023",
+          "location": "D1.11, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
@@ -1974,10 +1968,22 @@
           "location": "C7.09, 7, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
-          "summary": "Agentes Autónomos - Autonomous Agents",
-          "start": "Wed Nov 16 14:30:00 WET 2022",
-          "end": "Wed Nov 16 16:00:00 WET 2022",
-          "location": "C4.01, 4, Edifício II (ISCTE-IUL), ISCTE-IUL"
+          "summary": "Interacção Pessoa-Máquina - Human-Computer Interaction",
+          "start": "Wed May 17 13:00:00 WEST 2023",
+          "end": "Wed May 17 14:30:00 WEST 2023",
+          "location": "C2.02, 2, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu May 04 14:30:00 WEST 2023",
+          "end": "Thu May 04 16:00:00 WEST 2023",
+          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
+     },
+     {
+          "summary": "Projeto de Integração de Sistemas de Informação Distribuídos - Distributed Information Systems Integration Project",
+          "start": "Thu Feb 23 14:30:00 WET 2023",
+          "end": "Thu Feb 23 16:00:00 WET 2023",
+          "location": "C5.01, 5, Edifício II (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Arquitetura de Redes - Network Arquitectures",
@@ -2002,12 +2008,6 @@
           "start": "Thu Mar 02 13:00:00 WET 2023",
           "end": "Thu Mar 02 14:30:00 WET 2023",
           "location": "D1.07, 1, Edifício II (ISCTE-IUL), ISCTE-IUL"
-     },
-     {
-          "summary": "Arquitetura de Redes - Network Arquitectures",
-          "start": "Thu Oct 06 14:30:00 WEST 2022",
-          "end": "Thu Oct 06 16:00:00 WEST 2022",
-          "location": "2E10, 2, Edifício Sedas Nunes (ISCTE-IUL), ISCTE-IUL"
      },
      {
           "summary": "Sistemas de Data Warehouse e Business Intelligence - Data Warehouse and Business Intelligence Systems",

@@ -40,7 +40,7 @@ public class Horario {
         }
     }
 
-    private void loadFromJson(String fileName) {
+    void loadFromJson(String fileName) {
         try {
             String jsonData = new String(Files.readAllBytes(Paths.get(fileName)));
             Gson gson = new Gson();
@@ -124,7 +124,7 @@ public class Horario {
         }
     }
 
-    public  void visualizarAulasLotadas() {
+    public void visualizarAulasLotadas() {
         System.out.println("Aulas lotadas:");
         for (Aula aula : aulas) {
             if (aula.getInscritos() >= aula.getLotacao()) {
