@@ -19,7 +19,7 @@ class CreateFromURITest {
      * </p>
      */
     @Test
-    public  void testCreateFromURI() throws IOException {
+    void testCreateFromURI() throws IOException {
         String uri ="webcal://fenix.iscte-iul.pt/publico/publicPersonICalendar.do?method=iCalendar&username=jpafs1@iscte.pt&password=YzJ5eqKJh8eL8BR5z4RRanOH35ynk4mrKiOAvgcTQvvgTw0xGdimofEwBku8Vf1ZB58wc2eDcujE1o9gQamSzkwwvCxDSrX8r8hy1i4PTXidZxWAzGxAFR5zjLefa1a2";
         new CreateFromURI(uri);
 
@@ -49,7 +49,7 @@ class CreateFromURITest {
      * </p>
      */
     @Test
-    public void testGetClassroomFromLink() {
+    void testGetClassroomFromLink() {
         // Given
         String uri = "webcal://fenix.iscte-iul.pt/publico/publicPersonICalendar.do?method=iCalendar&username=avsmm@iscte.pt&password=NaneDPf4lWconuF4UuHHptGH9ZfjfjD677VcFhnJTeltafE2JtWwYyvCf4zZ8AyMpIDoOouT2OZNISmi4EAjRfLhHeZwzPzs1BweVlggz8lAvCtNzdo4DfsZBHErCZwf";
 

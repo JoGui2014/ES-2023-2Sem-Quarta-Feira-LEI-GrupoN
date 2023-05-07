@@ -2,12 +2,12 @@
 import biweekly.Biweekly;
 import biweekly.ICalendar;
 import biweekly.component.VEvent;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import org.json.JSONObject;
 import org.apache.commons.csv.*;
 
 import java.io.*;
 import java.net.*;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 
@@ -22,12 +22,8 @@ public class CreateFromURI {
      * @param webcalURL webcal link so that the constructor can work
      */
     public CreateFromURI(String webcalURL) throws IOException {
-        try {
-            System.setOut(new PrintStream(System.out, true, "UTF-8"));
-            //para aceitar os acentos
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
+        System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8));
+        //para aceitar os acentos
 
         if (webcalURL.startsWith("webcal")) {
             webcalURL = "https" + webcalURL.substring(6);
@@ -117,6 +113,7 @@ public class CreateFromURI {
      * @return a list of events that are saved in the webcal link
      */
     public static List<VEvent> getClassroomFromLink(String webcalUrl) {
+        List<VEvent> returnvar = null;
         try {
             URL url = new URL(webcalUrl);
 
@@ -128,12 +125,12 @@ public class CreateFromURI {
 
         } catch (IOException e) {
             e.printStackTrace();
-            return null;
+            return returnvar;
         }
 
     }
 
-    public static void main(String[] args) throws JsonProcessingException, IOException{
+    public static void main(String[] args) throws IOException{
         String uri = "webcal://fenix.iscte-iul.pt/publico/publicPersonICalendar.do?method=iCalendar&username=avsmm@iscte.pt&password=NaneDPf4lWconuF4UuHHptGH9ZfjfjD677VcFhnJTeltafE2JtWwYyvCf4zZ8AyMpIDoOouT2OZNISmi4EAjRfLhHeZwzPzs1BweVlggz8lAvCtNzdo4DfsZBHErCZwf";
         new CreateFromURI(uri);
     }
