@@ -10,7 +10,14 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CreateFromURITest {
-
+    /**
+     * <p>
+     *     Este metodo testa a function "CreateFromURI" da classe "CreateFromURI".
+     *     O teste usa um link de horario do fenix, corre a função e verifica que os files criados são
+     *     readable e depois verifica que os ficheiros são criados como era esperado.
+     *
+     * </p>
+     */
     @Test
     public  void testCreateFromURI() throws IOException {
         String uri ="webcal://fenix.iscte-iul.pt/publico/publicPersonICalendar.do?method=iCalendar&username=jpafs1@iscte.pt&password=YzJ5eqKJh8eL8BR5z4RRanOH35ynk4mrKiOAvgcTQvvgTw0xGdimofEwBku8Vf1ZB58wc2eDcujE1o9gQamSzkwwvCxDSrX8r8hy1i4PTXidZxWAzGxAFR5zjLefa1a2";
@@ -34,7 +41,13 @@ class CreateFromURITest {
     }
 
 
-
+    /**
+     * <p>
+     *     Este metodo testa a function "GetClassroomFromLink" da classe "CreateFromURI".
+     *     O teste usa um link de horario do fenix, corre a função e verifica que foram criados os events
+     *     (notnull).
+     * </p>
+     */
     @Test
     public void testGetClassroomFromLink() {
         // Given

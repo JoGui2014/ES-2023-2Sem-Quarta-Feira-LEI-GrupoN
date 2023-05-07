@@ -17,7 +17,13 @@ import java.nio.file.Path;
 
 class HorarioTest {
 
-
+    /**
+     * <p>
+     *     Este metodo testa a function "LoadFromCsv" da classe "Horario".
+     *     O teste cria um ficheiro test.csv e preenche-o. Depois corre a função e verifica se o resultado era o esperado
+     *
+     * </p>
+     */
     @Test
     void testLoadFromCsv(@TempDir Path tempDir) throws Exception {
         // Create a CSV file with test data
@@ -53,7 +59,14 @@ class HorarioTest {
     }
 
 
-
+    /**
+     * <p>
+     *     Este metodo testa a function "removeaula" da classe "Horario".
+     *     Sao criados dois conjuntos de aulas em que da primeira se remove uma usando a função.
+     *     No final verificasse se a aula foi bem removida.
+     *
+     * </p>
+     */
     @Test
     void removeAula() {
         // Set up test data
@@ -80,6 +93,14 @@ class HorarioTest {
     }
 
 
+
+    /**
+     * <p>
+     *     Este metodo testa a function "VisualizarAulasLotadas" da classe "Horario".
+     *     O teste cria aulas para testar, corre a funçao e verifica se foram detetadas as aulas corretas.
+     *
+     * </p>
+     */
     @Test
     void testVisualizarAulasLotadas() {
         // Set up test data
@@ -111,6 +132,14 @@ class HorarioTest {
         assertEquals(expectedOutput, outputStreamCaptor.toString());
     }
 
+
+    /**
+     * <p>
+     *     Este metodo testa a function "visualizarAulasSobrepostas" da classe "Horario".
+     *     O teste cria aulas para testar, corre a funçao e verifica se foram detetadas as aulas corretas.
+     *
+     * </p>
+     */
     @Test
     void visualizarAulasSobrepostas() {
         List<Aula> aulas = new ArrayList<>();
