@@ -16,35 +16,41 @@
 <script>
     function handleCSVFile() {
         const fileInput = document.querySelector('[type="file"]');
+
         fileInput.addEventListener('change', () => {
             const fr = new FileReader();
-            fr.readAsText(fileInput.files[0]);
+
+            fr.readAsText(fileInput.files[0])
             fr.addEventListener('load', () => {
+
                 const csvData = fr.result;
-                const horario = new Horario(csvData); // Create an instance of Horario with CSV data
-                var blocos = horario.getAulas(); // Retrieve the list of Aulas
-                // var lines = csvData.split('\n');
-                // for (var i = 0; i < lines.length; i++) {
-                //     var cells = lines[i].split(';');
-                //     // Extract values from CSV cells
-                //     var curso = cells[0];
-                //     var title = cells[1];
-                //     var turno = cells[2];
-                //     var prof = cells[3];
-                //     var nInscricoes = cells[4];
-                //     var diaSemana = cells[5];
-                //     var horaInicio = cells[6];
-                //     var horaFim = cells[7];
-                //     var data = cells[8];
-                //     var sala = cells[9];
-                //     var lotacao = cells[10];
-                //     // Call criarBloco function with extracted values
-                //     blocos.push(criarBloco(curso, title, turno, prof, nInscricoes, diaSemana, horaInicio, horaFim, data, sala, lotacao));
-                // }
+
+                var lines = csvData.split('\n');
+                var blocos = [];
+                for (var i = 0; i < lines.length; i++) {
+                    var cells = lines[i].split(';');
+
+                    // Extract values from CSV cells
+                    var curso = cells[0];
+                    var title = cells[1];
+                    var turno = cells[2];
+                    var prof = cells[3];
+                    var nInscricoes = cells[4];
+                    var diaSemana = cells[5];
+                    var horaInicio = cells[6];
+                    var horaFim = cells[7];
+                    var data = cells[8];
+                    var sala = cells[9];
+                    var lotacao = cells[10];
+
+                    // Call criarBloco function with extracted values
+                    var bloco = criarBloco(curso, title, turno, prof, nInscricoes, diaSemana, horaInicio, horaFim, data, sala, lotacao);
+                    blocos.push(bloco);
+                }
+                alert("Os blocos foram enviados");
                 var cursos = {};
-                alert(blocos[i])
+
                 for (var i = 1; i < blocos.length; i++) {
-                    alert(blocos[i])
                     var curso = blocos[i].curso;
                     cursos[curso] = true;
                 }
